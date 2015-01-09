@@ -1,0 +1,6 @@
+#Ores
+tile.acanthite_ore.name=Acanthite Ore
+
+#Fuels
+item.coke.name=Coke
+item.split_wood.name=Split Wood
