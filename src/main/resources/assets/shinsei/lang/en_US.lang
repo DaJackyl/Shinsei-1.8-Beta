@@ -1,6 +1,19 @@
+# Creative Tabs
+itemGroup.shinsei:ores_tab=Shinsei Ores
+itemGroup.shinsei:blocks_tab=Shinsei Blocks
+itemGroup.shinsei:fuels_tab=Shinsei Fuels
+itemGroup.shinsei:gems_tab=Shinsei Gems
+itemGroup.shinsei:items_tab=Shinsei Items
+
 #Ores
 tile.acanthite_ore.name=Acanthite Ore
+tile.amethyst_ore.name=Amethyst Ore
+tile.apatite_ore.name=Apatite Ore
 
 #Fuels
 item.coke.name=Coke
 item.split_wood.name=Split Wood
+
+#Gems
+item.amethyst_gem.name=Amethyst
+item.apatite_gem.name=Apatite

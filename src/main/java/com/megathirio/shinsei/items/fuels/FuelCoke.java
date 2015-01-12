@@ -1,6 +1,5 @@
 package com.megathirio.shinsei.items.fuels;
 
-import com.megathirio.shinsei.items.ItemShinsei;
 import com.megathirio.shinsei.reference.names.ItemNames;
 
 public class FuelCoke extends FuelShinsei {

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "shinsei",
+  "name": "Shinsei Mod",
+  "description": "Shinsei is a mod about reusing items and blocks and giving them new life. It also adds a modular machine and tool system.",
+  "version": "1.8-0.1.0a",
+  "mcversion": "1.8",
+  "url": "http://www.megathirio.com",
+  "updateUrl": "",
+  "authorList": ["The Jackyl"],
+  "credits": "For all their help and advice, Taekero, Little J, Feowyn, Maxcel23,Glazzmaker, Neale Gaming",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,11 +1,10 @@
 package com.megathirio.shinsei.items;
 
+import com.megathirio.shinsei.init.ShinseiTabs;
 import com.megathirio.shinsei.reference.CoreRef;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ItemShinsei extends Item{
@@ -14,7 +13,7 @@ public class ItemShinsei extends Item{
         super();
         this.setUnlocalizedName(name);
         GameRegistry.registerItem(this, name);
-        setCreativeTab(CreativeTabs.tabFood);
+        setCreativeTab(ShinseiTabs.ITEMS_TAB);
     }
 
     public static void registerRender(Item item){
