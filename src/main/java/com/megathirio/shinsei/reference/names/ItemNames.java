@@ -7,8 +7,12 @@ public final class ItemNames {
     }
 
     public static final class dusts {
+        public static final String BORAX_DUST = "borax_dust";
         public static final String CHALK_DUST = "chalk_dust";
         public static final String GRAPHITE_DUST = "graphite_dust";
+        public static final String GYPSUM_DUST = "gypsum_dust";
+        public static final String SALT = "salt";
+        public static final String SILT = "silt";
         public static final String SULPHUR_DUST = "sulphur_dust";
         public static final String URANIUM_DUST = "uranium_dust";
     }

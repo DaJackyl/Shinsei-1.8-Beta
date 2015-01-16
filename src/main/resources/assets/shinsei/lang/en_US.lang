@@ -15,11 +15,9 @@ tile.antimony_block.name=Antimony Block
 tile.aquamarine_block.name=Aquamarine Block
 tile.barium_block.name=Barium Block
 tile.bismuth_block.name=Bismuth Block
-tile.borax_block.name=Borax Block
 tile.brass_block.name=Brass Block
 tile.bronze_block.name=Bronze Block
 tile.cadmium_block.name=Cadmium Block
-tile.chalk_block.name=Chalk Block
 tile.chromium_block.name=Chromium Block
 tile.cobalt_block.name=Cobalt Block
 tile.copper_block.name=Copper Block
@@ -50,6 +48,16 @@ tile.tungsten_block.name=Tungsten Block
 tile.turquoise_block.name=Turquoise Block
 tile.vanadium_block.name=Vanadium Block
 tile.zinc_block.name=Zinc Block
+
+#Minerals
+tile.basalt_block.name=Basalt Block
+tile.basalt_cobble_block.name=Basalt Cobble Block
+tile.borax_block.name=Borax Block
+tile.chalk_block.name=Chalk Block
+tile.gypsum_block.name=Gypsum Block
+tile.halite_block.name=Halite Block
+tile.limestone_block.name=Limestone Block
+tile.siltstone_block.name=Siltstone Block
 
 #Ores
 tile.acanthite_ore.name=Acanthite Ore
@@ -99,7 +107,12 @@ item.coke.name=Coke
 item.split_wood.name=Split Wood
 
 #Dusts
+item.borax_dust.name=Borax Powder
+item.chalk_dust.name=Chalk Powder
 item.graphite_dust.name=Graphite Powder
+item.gypsum_dust.name=Gypsum Powder
+item.salt.name=Salt
+item.silt.name=Silt
 item.sulphur_dust.name=Sulphur Powder
 item.uranium_dust.name=Uranium Powder
 

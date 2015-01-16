@@ -12,7 +12,6 @@ public final class BlockNames {
         public static final String BRASS_BLOCK = "brass_block";
         public static final String BRONZE_BLOCK = "bronze_block";
         public static final String CHROMIUM_BLOCK = "chromium_block";
-        public static final String CHALK_BLOCK = "chalk_block";
         public static final String COBALT_BLOCK = "cobalt_block";
         public static final String COPPER_BLOCK = "copper_block";
         public static final String FLUORITE_BLOCK = "fluorite_block";
@@ -45,6 +44,16 @@ public final class BlockNames {
         public static final String ZINC_BLOCK = "zinc_block";
     }
 
+    public static final class minerals {
+        public static final String BASALT_BLOCK = "basalt_block";
+        public static final String BASALT_COBBLE_BLOCK = "basalt_cobble_block";
+        public static final String BORAX_BLOCK = "borax_block";
+        public static final String CHALK_BLOCK = "chalk_block";
+        public static final String GYPSUM_BLOCK = "gypsum_block";
+        public static final String HALITE_BLOCK = "halite_block";
+        public static final String LIMESTONE_BLOCK = "limestone_block";
+        public static final String SILTSTONE_BLOCK = "siltstone_block";
+    }
     public static final class ores {
         public static final String ACANTHITE_ORE = "acanthite_ore";
         public static final String AMETHYST_ORE = "amethyst_ore";

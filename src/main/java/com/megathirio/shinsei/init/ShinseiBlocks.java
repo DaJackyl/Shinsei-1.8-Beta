@@ -1,14 +1,18 @@
 package com.megathirio.shinsei.init;
 
 import com.megathirio.shinsei.blocks.*;
+import com.megathirio.shinsei.blocks.minerals.*;
 import com.megathirio.shinsei.blocks.ores.*;
 
 public class ShinseiBlocks {
 
     //Variable Intitializations
-    //Metals
+    //Blocks
     public static BlockShinsei aluminum_block = new BlockAluminum();
+    public static BlockShinsei amethyst_block = new BlockAmethyst();
     public static BlockShinsei antimony_block = new BlockAntimony();
+    public static BlockShinsei apatite_block = new BlockApatite();
+    public static BlockShinsei aquamarine_block = new BlockAquamarine();
     public static BlockShinsei barium_block = new BlockBarium();
     public static BlockShinsei bismuth_block = new BlockBismuth();
     public static BlockShinsei brass_block = new BlockBrass();
@@ -16,47 +20,41 @@ public class ShinseiBlocks {
     public static BlockShinsei chromium_block = new BlockChromium();
     public static BlockShinsei cobalt_block = new BlockCobalt();
     public static BlockShinsei copper_block = new BlockCopper();
+    public static BlockShinsei fluorite_block = new BlockFluorite();
+    public static BlockShinsei jade_block = new BlockJade();
     public static BlockShinsei lead_block = new BlockLead();
     public static BlockShinsei magnesium_block = new BlockMagnesium();
     public static BlockShinsei manganese_block = new BlockManganese();
     public static BlockShinsei molybdenum_block = new BlockMolybdenum();
     public static BlockShinsei nickel_block = new BlockNickel();
+    public static BlockShinsei opal_block = new BlockOpal();
+    public static BlockShinsei onyx_block = new BlockOnyx();
+    public static BlockShinsei peridot_block = new BlockPeridot();
     public static BlockShinsei platinum_block = new BlockPlatinum();
+    public static BlockShinsei ruby_block = new BlockRuby();
+    public static BlockShinsei sapphire_block = new BlockSapphire();
+    public static BlockShinsei scarlet_emerald_block = new BlockScarletEmerald();
     public static BlockShinsei silver_block = new BlockSilver();
     public static BlockShinsei stainless_steel_block = new BlockStainlessSteel();
     public static BlockShinsei steel_block = new BlockSteel();
     public static BlockShinsei tantalum_block = new BlockTantalum();
     public static BlockShinsei tin_block = new BlockTin();
     public static BlockShinsei titanium_block = new BlockTitanium();
+    public static BlockShinsei topaz_block = new BlockTopaz();
     public static BlockShinsei tungsten_block = new BlockTungsten();
+    public static BlockShinsei turquoise_block = new BlockTurquoise();
     public static BlockShinsei vanadium_block = new BlockVanadium();
     public static BlockShinsei zinc_block = new BlockZinc();
+    //Minerals
+    public static MineralShinsei basalt_block = new MineralBasalt();
+    public static MineralShinsei basalt_cobble_block = new MineralBasaltCobble();
+    public static MineralShinsei borax_block = new MineralBorax();
+    public static MineralShinsei chalk_block = new MineralChalk();
+    public static MineralShinsei gypsum_block = new MineralGypsum();
+    public static MineralShinsei halite_block = new MineralHalite();
+    public static MineralShinsei limestone_block = new MineralLimestone();
+    public static MineralShinsei siltstone_block = new MineralSiltstone();
 
-    //Blocks
-    public static BlockShinsei amethyst_block = new BlockAmethyst();
-    public static BlockShinsei apatite_block = new BlockApatite();
-    public static BlockShinsei aquamarine_block = new BlockAquamarine();
-    public static BlockShinsei fluorite_block = new BlockFluorite();
-    public static BlockShinsei jade_block = new BlockJade();
-    public static BlockShinsei opal_block = new BlockOpal();
-    public static BlockShinsei onyx_block = new BlockOnyx();
-    public static BlockShinsei peridot_block = new BlockPeridot();
-    public static BlockShinsei ruby_block = new BlockRuby();
-    public static BlockShinsei sapphire_block = new BlockSapphire();
-    public static BlockShinsei scarlet_emerald_block = new BlockScarletEmerald();
-    public static BlockShinsei topaz_block = new BlockTopaz();
-    public static BlockShinsei turquoise_block = new BlockTurquoise();
-    public static BlockShinsei chalk_block = new BlockChalk();
-    /*public static BlockShinsei basalt_block = new BlockBasalt();
-    public static BlockShinsei basaltCobble = new BlockBasaltCobble();
-    public static BlockShinsei borax_block = new BlockBorax();
-    public static BlockShinsei limestone_block = new BlockLimestone();
-    public static BlockShinsei marble_block = new BlockMarble();
-    public static BlockShinsei siltstone_block = new BlockSiltstone();
-    public static BlockShinsei granite_block = new BlockGranite();
-    public static BlockShinsei gypsum_block = new BlockGypsum();
-    public static BlockShinsei halite_block = new BlockHalite();
-    */
     //Ores
     public static OreShinsei acanthite_ore = new OreAcanthite();
     public static OreShinsei amethyst_ore = new OreAmethyst();
@@ -102,6 +100,54 @@ public class ShinseiBlocks {
 
     //Registers renders for Blocks
     public static void registerRenders() {
+        //Blocks
+        BlockAluminum.registerRender(aluminum_block);
+        BlockAmethyst.registerRender(amethyst_block);
+        BlockAntimony.registerRender(antimony_block);
+        BlockApatite.registerRender(apatite_block);
+        BlockAquamarine.registerRender(aquamarine_block);
+        BlockBarium.registerRender(barium_block);
+        BlockBismuth.registerRender(bismuth_block);
+        BlockBrass.registerRender(brass_block);
+        BlockBronze.registerRender(bronze_block);
+        MineralChalk.registerRender(chalk_block);
+        BlockChromium.registerRender(chromium_block);
+        BlockCobalt.registerRender(cobalt_block);
+        BlockCopper.registerRender(copper_block);
+        BlockFluorite.registerRender(fluorite_block);
+        BlockJade.registerRender(jade_block);
+        BlockLead.registerRender(lead_block);
+        BlockMagnesium.registerRender(magnesium_block);
+        BlockManganese.registerRender(manganese_block);
+        BlockMolybdenum.registerRender(molybdenum_block);
+        BlockNickel.registerRender(nickel_block);
+        BlockOnyx.registerRender(onyx_block);
+        BlockOpal.registerRender(opal_block);
+        BlockPeridot.registerRender(peridot_block);
+        BlockPlatinum.registerRender(platinum_block);
+        BlockRuby.registerRender(ruby_block);
+        BlockSapphire.registerRender(sapphire_block);
+        BlockScarletEmerald.registerRender(scarlet_emerald_block);
+        BlockSilver.registerRender(silver_block);
+        BlockStainlessSteel.registerRender(stainless_steel_block);
+        BlockSteel.registerRender(steel_block);
+        BlockTantalum.registerRender(tantalum_block);
+        BlockTin.registerRender(tin_block);
+        BlockTitanium.registerRender(titanium_block);
+        BlockTungsten.registerRender(tungsten_block);
+        BlockTopaz.registerRender(topaz_block);
+        BlockTurquoise.registerRender(turquoise_block);
+        BlockVanadium.registerRender(vanadium_block);
+        BlockZinc.registerRender(zinc_block);
+        //Minerals
+        MineralBasalt.registerRender(basalt_block);
+        MineralBasaltCobble.registerRender(basalt_cobble_block);
+        MineralBorax.registerRender(borax_block);
+        MineralChalk.registerRender(chalk_block);
+        MineralGypsum.registerRender(gypsum_block);
+        MineralHalite.registerRender(halite_block);
+        MineralLimestone.registerRender(limestone_block);
+        MineralSiltstone.registerRender(siltstone_block);
         //Ores
         OreAcanthite.registerRender(acanthite_ore);
         OreAmethyst.registerRender(amethyst_ore);
@@ -144,44 +190,5 @@ public class ShinseiBlocks {
         OreTopaz.registerRender(topaz_ore);
         OreTurquoise.registerRender(turquoise_ore);
         OreUraninite.registerRender(uraninite_ore);
-        BlockAluminum.registerRender(aluminum_block);
-        BlockAmethyst.registerRender(amethyst_block);
-        BlockAntimony.registerRender(antimony_block);
-        BlockApatite.registerRender(apatite_block);
-        BlockAquamarine.registerRender(aquamarine_block);
-        BlockBarium.registerRender(barium_block);
-        BlockBismuth.registerRender(bismuth_block);
-        BlockBrass.registerRender(brass_block);
-        BlockBronze.registerRender(bronze_block);
-        BlockChalk.registerRender(chalk_block);
-        BlockChromium.registerRender(chromium_block);
-        BlockCobalt.registerRender(cobalt_block);
-        BlockCopper.registerRender(copper_block);
-        BlockFluorite.registerRender(fluorite_block);
-        BlockJade.registerRender(jade_block);
-        BlockLead.registerRender(lead_block);
-        BlockMagnesium.registerRender(magnesium_block);
-        BlockManganese.registerRender(manganese_block);
-        BlockMolybdenum.registerRender(molybdenum_block);
-        BlockNickel.registerRender(nickel_block);
-        BlockOnyx.registerRender(onyx_block);
-        BlockOpal.registerRender(opal_block);
-        BlockPeridot.registerRender(peridot_block);
-        BlockPlatinum.registerRender(platinum_block);
-        BlockRuby.registerRender(ruby_block);
-        BlockSapphire.registerRender(sapphire_block);
-        BlockScarletEmerald.registerRender(scarlet_emerald_block);
-        BlockSilver.registerRender(silver_block);
-        BlockStainlessSteel.registerRender(stainless_steel_block);
-        BlockSteel.registerRender(steel_block);
-        BlockTantalum.registerRender(tantalum_block);
-        BlockTin.registerRender(tin_block);
-        BlockTitanium.registerRender(titanium_block);
-        BlockTungsten.registerRender(tungsten_block);
-        BlockTopaz.registerRender(topaz_block);
-        BlockTurquoise.registerRender(turquoise_block);
-        BlockVanadium.registerRender(vanadium_block);
-        BlockZinc.registerRender(zinc_block);
-
     }
 }

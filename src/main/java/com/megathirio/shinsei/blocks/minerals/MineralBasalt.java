@@ -1,5 +1,7 @@
-package com.megathirio.shinsei.blocks;
+package com.megathirio.shinsei.blocks.minerals;
 
+import com.megathirio.shinsei.blocks.BlockShinsei;
+import com.megathirio.shinsei.init.ShinseiBlocks;
 import com.megathirio.shinsei.init.ShinseiItems;
 import com.megathirio.shinsei.reference.names.BlockNames;
 import net.minecraft.block.material.Material;
@@ -10,31 +12,26 @@ import java.util.Random;
 
 import static com.megathirio.shinsei.core.utilities.MathHelper.randomChance;
 
-public class BlockChalk extends BlockShinsei {
+public class MineralBasalt extends MineralShinsei {
 
-    private static String name = BlockNames.blocks.CHALK_BLOCK;
+    private static String name = BlockNames.minerals.BASALT_BLOCK;
     private static Material material = Material.rock;
-    public BlockChalk(){
+    public MineralBasalt(){
         super(material, name);
-        setHardness(3.0f);
-        setResistance(4.9f);
+        setHardness(8.0f);
+        setResistance(12.9f);
+        setHarvestLevel("pickaxe", 3);
     }
 
     @Override
-    public Item getItemDropped(IBlockState state, Random rand, int fortune)
+    public Item getItemDropped(IBlockState state, Random random, int fortune)
     {
-        return ShinseiItems.chalk_dust;
+        return Item.getItemFromBlock(ShinseiBlocks.basalt_cobble_block);
     }
 
     @Override
     public int quantityDropped(Random random)
     {
-        if (randomChance() <= 20){
-            return 3;
-        }else if(randomChance() <= 50){
-            return 2;
-        }else {
             return 1;
-        }
     }
 }

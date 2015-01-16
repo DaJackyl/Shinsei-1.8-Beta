@@ -13,7 +13,11 @@ public class ShinseiItems {
         public static FuelShinsei coke = new FuelCoke();
     //Dusts
         public static DustShinsei chalk_dust = new DustChalk();
+        public static DustShinsei borax_dust = new DustBorax();
         public static DustShinsei graphite_dust = new DustGraphite();
+        public static DustShinsei gypsum_dust = new DustGypsum();
+        public static DustShinsei salt = new DustSalt();
+        public static DustShinsei silt = new DustSilt();
         public static DustShinsei sulphur_dust = new DustSulphur();
         public static DustShinsei uranium_dust = new DustUranium();
     //Gems
@@ -47,8 +51,12 @@ public class ShinseiItems {
         FuelSplitWood.registerRender(split_wood);
         FuelCoke.registerRender(coke);
     //Dusts
+        DustBorax.registerRender(borax_dust);
         DustChalk.registerRender(chalk_dust);
         DustGraphite.registerRender(graphite_dust);
+        DustGypsum.registerRender(gypsum_dust);
+        DustSalt.registerRender(salt);
+        DustSilt.registerRender(silt);
         DustSulphur.registerRender(sulphur_dust);
         DustUranium.registerRender(uranium_dust);
     //Gems
