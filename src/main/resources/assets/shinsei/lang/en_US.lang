@@ -2,18 +2,129 @@
 itemGroup.shinsei:ores_tab=Shinsei Ores
 itemGroup.shinsei:blocks_tab=Shinsei Blocks
 itemGroup.shinsei:fuels_tab=Shinsei Fuels
+itemGroup.shinsei:dusts_tab=Shinsei Dusts
 itemGroup.shinsei:gems_tab=Shinsei Gems
+itemGroup.shinsei:nuggets_tab=Shinsei Nuggets
 itemGroup.shinsei:items_tab=Shinsei Items
+
+# Blocks
+tile.amethyst_block.name=Amethyst Block
+tile.apatite_block.name=Apatite Block
+tile.aluminum_block.name=Aluminum Block
+tile.antimony_block.name=Antimony Block
+tile.aquamarine_block.name=Aquamarine Block
+tile.barium_block.name=Barium Block
+tile.bismuth_block.name=Bismuth Block
+tile.borax_block.name=Borax Block
+tile.brass_block.name=Brass Block
+tile.bronze_block.name=Bronze Block
+tile.cadmium_block.name=Cadmium Block
+tile.chalk_block.name=Chalk Block
+tile.chromium_block.name=Chromium Block
+tile.cobalt_block.name=Cobalt Block
+tile.copper_block.name=Copper Block
+tile.fluorite_block.name=Fluorite Block
+tile.indium_block.name=Indium Block
+tile.iridium_block.name=Iridium Block
+tile.jade_block.name=Jade Block
+tile.lead_block.name=Lead Block
+tile.magnesium_block.name=Magnesium Block
+tile.manganese_block.name=Manganese Block
+tile.molybdenum_block.name=Molybdenum Block
+tile.nickel_block.name=Nickel Block
+tile.onyx_block.name=Onyx Block
+tile.opal_block.name=Opal Block
+tile.peridot_block.name=Peridot Block
+tile.platinum_block.name=Platinum Block
+tile.ruby_block.name=Ruby Block
+tile.sapphire_block.name=Sapphire Block
+tile.scarlet_emerald_block.name=Scarlet Emerald Block
+tile.silver_block.name=Silver Block
+tile.stainless_steel_block.name=Stainless Steel Block
+tile.steel_block.name=Steel Block
+tile.tantalum_block.name=Tantalum Block
+tile.tin_block.name=Tin Block
+tile.titanium_block.name=Titanium Block
+tile.topaz_block.name=Topaz Block
+tile.tungsten_block.name=Tungsten Block
+tile.turquoise_block.name=Turquoise Block
+tile.vanadium_block.name=Vanadium Block
+tile.zinc_block.name=Zinc Block
 
 #Ores
 tile.acanthite_ore.name=Acanthite Ore
 tile.amethyst_ore.name=Amethyst Ore
 tile.apatite_ore.name=Apatite Ore
+tile.barite_ore.name=Barite Ore
+tile.bauxite_ore.name=Bauxite Ore
+tile.beryl_ore.name=Beryl Ore
+tile.bismuth_ore.name=Bismuth Ore
+tile.bornite_ore.name=Bornite Ore
+tile.cassiterite_ore.name=Cassiterite Ore
+tile.chalcedony_ore.name=Chalcedony Ore
+tile.chalcopyrite_ore.name=Chalcopyrite Ore
+tile.chromite_ore.name=Chromite Ore
+tile.cinnabar_ore.name=Cinnabar Ore
+tile.cobaltite_ore.name=Cobaltite Ore
+tile.corundum_ore.name=Corundum Ore
+tile.cryolite_ore.name=Cryolite Ore
+tile.dolomite_ore.name=Dolomite Ore
+tile.fluorite_ore.name=Fluorite Ore
+tile.galena_ore.name=Galena Ore
+tile.graphite_ore.name=Graphite Ore
+tile.hematite_ore.name=Hematite Ore
+tile.ilmenite_ore.name=Ilmenite Ore
+tile.jadeite_ore.name=Jadeite Ore
+tile.meteorite_ore.name=Meteorite Ore
+tile.molybdenite_ore.name=Molybdenite Ore
+tile.olivine_ore.name=Olivine Ore
+tile.opal_ore.name=Opal Ore
+tile.pentlandite_ore.name=Pentlandite Ore
+tile.pyrolusite_ore.name=Pyrolusite Ore
+tile.realgar_ore.name=Realgar Ore
+tile.rutile_ore.name=Rutile Ore
+tile.scheelite_ore.name=Scheelite Ore
+tile.sperrylite_ore.name=Sperrylite Ore
+tile.sphalerite_ore.name=Sphalerite Ore
+tile.stibnite_ore.name=Stibnite Ore
+tile.sulphur_ore.name=Sulphur Ore
+tile.sylvite_ore.name=Sylvite Ore
+tile.tantalite_ore.name=Tantalite Ore
+tile.topaz_ore.name=Topaz Ore
+tile.turquoise_ore.name=Turquoise Ore
+tile.uraninite_ore.name=Uraninite Ore
 
 #Fuels
 item.coke.name=Coke
 item.split_wood.name=Split Wood
 
+#Dusts
+item.graphite_dust.name=Graphite Powder
+item.sulphur_dust.name=Sulphur Powder
+item.uranium_dust.name=Uranium Powder
+
 #Gems
 item.amethyst_gem.name=Amethyst
 item.apatite_gem.name=Apatite
+item.aquamarine_gem.name=Aquamarine
+item.fluorite_gem.name=Fluorite
+item.jade_gem.name=Jade
+item.onyx_gem.name=Onyx
+item.opal_gem.name=Opal
+item.peridot_gem.name=Peridot
+item.ruby_gem.name=Ruby
+item.sapphire_gem.name=Sapphire
+item.scarlet_emerald_gem.name=Scarlet Emerald
+item.topaz_gem.name=Topaz
+item.turquoise_gem.name=Turquoise
+
+#Nuggets
+item.barium_nugget.name=Barium Nugget
+item.chromium_nugget.name=Chromium Nugget
+item.cobalt_nugget.name=Cobalt Nugget
+item.indium_nugget.name=Indium Nugget
+item.iridium_nugget.name=Iridium Nugget
+item.iron_nugget.name=Iron Nugget
+item.nickel_nugget.name=Nickel Nugget
+item.platinum_nugget.name=Platinum Nugget
+item.silver_nugget.name=Silver Nugget

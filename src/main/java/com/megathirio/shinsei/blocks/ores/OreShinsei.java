@@ -15,6 +15,10 @@ public class OreShinsei extends BlockShinsei{
 
     public OreShinsei(Material material, String name) {
         super(material, name);
+        setHardness(2.0f);
+        setResistance(3.2f);
+        setStepSound(soundTypeStone);
+        enableStats = true;
         setCreativeTab(ShinseiTabs.ORES_TAB);
     }
 

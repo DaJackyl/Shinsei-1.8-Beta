@@ -1,51 +1,35 @@
 package com.megathirio.shinsei.core.handlers;
 
-//import com.megathirio.shinsei.utility.LogHelper;
-import com.megathirio.shinsei.core.config.ConfigValues;
-import com.megathirio.shinsei.core.utilities.LogHelper;
-import com.megathirio.shinsei.reference.CoreRef;
 import net.minecraftforge.common.config.Configuration;
-import net.minecraftforge.fml.client.event.ConfigChangedEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import java.io.File;
 
 public class ConfigHandler {
-    public static Configuration configuration;
 
-    public static void init(File configFile){
-        //Create the config object from the given config file
-        if (configuration == null){
-            configuration = new Configuration(configFile);
-            loadConfiguration();
+    public static Configuration config;
 
-        }
+    // Sections to add to the config
+    public static String oreGen = "Ore Generation";
+
+    // Options in the config
+    public static boolean enableAcanthite;
+    public static boolean enableAmethyst;
+    public static boolean enableApatite;
+    public static boolean enableBarite;
+
+    public static void init(File file) {
+        config = new Configuration(file);
+        syncConfig();
     }
 
-    @SubscribeEvent
-    public void onConfigurationChangedEvent(ConfigChangedEvent event){
-        if (event.modID.equalsIgnoreCase((CoreRef.MOD_ID))){
-            //Resync the configs
-            loadConfiguration();
-        }
+    public static void syncConfig() {
+        config.addCustomCategoryComment(oreGen, "This section contains all settings regarding ore generation.");
+
+        enableAcanthite = config.get(oreGen, "enableAcanthite", true, "Enable Acanthite Ore generation").getBoolean(enableAcanthite);
+        enableAmethyst = config.get(oreGen, "enableAmethyst", true, "Enable Amethyst Ore generation").getBoolean(enableAmethyst);
+        enableApatite = config.get(oreGen, "enableApatite", true, "Enable Apatite Ore generation").getBoolean(enableApatite);
+        enableBarite = config.get(oreGen, "enableBarite", true, "Enable Barite Ore generation").getBoolean(enableBarite);
+
+        config.save();
     }
-
-    private static void loadConfiguration(){
-        //Tools
-        ConfigValues.enableVanillaTools = configuration.get(Configuration.CATEGORY_GENERAL, "VanillaToolRecipes", false, "Set to true to enable Vanilla Tool Recipes").getBoolean(false);
-        LogHelper.info("Vanilla Recipes are set to: " + String.valueOf(ConfigValues.enableVanillaTools));
-
-        //Ores
-        ConfigValues.enableAcanthite = configuration.get(Configuration.CATEGORY_GENERAL, "acanthite_ore", true, "Set to false to disable Acanthite Ore Spawning").getBoolean(true);
-        LogHelper.info("Acanthite Ore Spawning is set to: " + String.valueOf(ConfigValues.enableAcanthite));
-        ConfigValues.enableAmethyst = configuration.get(Configuration.CATEGORY_GENERAL, "amethyst_ore", true, "Set to false to disable Amethyst Ore Spawning").getBoolean(true);
-        LogHelper.info("Amethyst Ore Spawning is set to: " + String.valueOf(ConfigValues.enableAmethyst));
-        ConfigValues.enableApatite = configuration.get(Configuration.CATEGORY_GENERAL, "apatite_ore", true, "Set to false to disable Apatite Ore Spawning").getBoolean(true);
-        LogHelper.info("Apatite Ore Spawning is set to: " + String.valueOf(ConfigValues.enableApatite));
-
-        if (configuration.hasChanged()){
-            configuration.save();
-        }
-    }
-
 }

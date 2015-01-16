@@ -9,7 +9,5 @@ public class OreAcanthite extends OreShinsei{
     private static Material material = Material.rock;
     public OreAcanthite(){
         super(material, name);
-        setHardness(2.0f);
-        setResistance(3.2f);
     }
 }

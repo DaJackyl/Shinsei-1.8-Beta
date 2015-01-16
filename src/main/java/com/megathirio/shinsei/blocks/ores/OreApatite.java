@@ -8,6 +8,8 @@ import net.minecraft.item.Item;
 
 import java.util.Random;
 
+import static com.megathirio.shinsei.core.utilities.MathHelper.randomChance;
+
 public class OreApatite extends OreShinsei{
 
     private static String name = BlockNames.ores.APATITE_ORE;
@@ -30,17 +32,15 @@ public class OreApatite extends OreShinsei{
     @Override
     public int quantityDropped(Random random)
     {
-        int intWeight = random.nextInt(100) + 1;
-        if (intWeight <= 10){
-            dropQty = 5;
-        }else if(intWeight <= 25){
-            dropQty = 4;
-        }else if(intWeight <= 50){
-            dropQty = 3;
+        if (randomChance() <= 10){
+            return 4;
+        }else if(randomChance() <= 25){
+            return 3;
+        }else if(randomChance() <= 50){
+            return 2;
         }else {
-            dropQty = 2;
+            return 1;
         }
-        return dropQty;
     }
 
 }

@@ -7,11 +7,12 @@ package com.megathirio.shinsei.blocks.ores;
         import net.minecraft.item.Item;
         import java.util.Random;
 
+        import static com.megathirio.shinsei.core.utilities.MathHelper.randomChance;
+
 public class OreAmethyst extends OreShinsei{
 
     private static String name = BlockNames.ores.AMETHYST_ORE;
     private static Material material = Material.rock;
-    private static int dropQty = 1;
 
     public OreAmethyst(){
         super(material, name);
@@ -21,7 +22,7 @@ public class OreAmethyst extends OreShinsei{
     }
 
     @Override
-    public Item getItemDropped(IBlockState state, Random rand, int fortune)
+    public Item getItemDropped(IBlockState state, Random random, int fortune)
     {
         return ShinseiItems.amethyst_gem;
     }
@@ -29,13 +30,10 @@ public class OreAmethyst extends OreShinsei{
     @Override
     public int quantityDropped(Random random)
     {
-        int intWeight = random.nextInt(100) + 1;
-        if (intWeight <= 20){
-            dropQty = 2;
+        if (randomChance() <= 20){
+            return 2;
         }else {
-            dropQty = 1;
+            return 1;
         }
-        return dropQty;
     }
-
 }

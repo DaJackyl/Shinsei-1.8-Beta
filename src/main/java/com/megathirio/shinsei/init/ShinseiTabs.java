@@ -20,7 +20,17 @@ public class ShinseiTabs {
         public Item getTabIconItem() { return ShinseiItems.split_wood; }
     };
 
+    public static final CreativeTabs DUSTS_TAB = new CreativeTabs(TabNames.tabs.DUSTS_TAB) {
+        @Override
+        public Item getTabIconItem() { return ShinseiItems.graphite_dust; }
+    };
+
     public static final CreativeTabs GEMS_TAB = new CreativeTabs(TabNames.tabs.GEMS_TAB) {
+        @Override
+        public Item getTabIconItem() { return ShinseiItems.amethyst_gem; }
+    };
+
+    public static final CreativeTabs NUGGETS_TAB = new CreativeTabs(TabNames.tabs.NUGGETS_TAB) {
         @Override
         public Item getTabIconItem() { return ShinseiItems.amethyst_gem; }
     };

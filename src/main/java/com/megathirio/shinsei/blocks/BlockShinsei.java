@@ -16,8 +16,7 @@ public class BlockShinsei extends Block {
         setUnlocalizedName(name);
         setHardness(3.0f);
         setResistance(5.0f);
-        setStepSound(soundTypeStone);
-        enableStats = true;
+        setHarvestLevel("pickaxe", 1);
         setCreativeTab(ShinseiTabs.BLOCKS_TAB);
         GameRegistry.registerBlock(this, name);
     }
