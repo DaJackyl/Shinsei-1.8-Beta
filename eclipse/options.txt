@@ -30,8 +30,8 @@ hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
-overrideWidth:0
-overrideHeight:0
+overrideWidth:1440
+overrideHeight:820
 heldItemTooltips:true
 chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196

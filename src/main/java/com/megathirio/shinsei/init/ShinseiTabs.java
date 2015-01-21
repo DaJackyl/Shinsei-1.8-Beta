@@ -15,6 +15,11 @@ public class ShinseiTabs {
         public Item getTabIconItem() { return Item.getItemFromBlock(ShinseiBlocks.acanthite_ore); }
     };
 
+    public static final CreativeTabs MACHINES_TAB = new CreativeTabs(TabNames.tabs.MACHINES_TAB) {
+        @Override
+        public Item getTabIconItem() { return Item.getItemFromBlock(ShinseiBlocks.anbiru); }
+    };
+
     public static final CreativeTabs FUELS_TAB = new CreativeTabs(TabNames.tabs.FUELS_TAB) {
         @Override
         public Item getTabIconItem() { return ShinseiItems.split_wood; }
@@ -38,6 +43,16 @@ public class ShinseiTabs {
     public static final CreativeTabs ITEMS_TAB = new CreativeTabs(TabNames.tabs.ITEMS_TAB) {
         @Override
         public Item getTabIconItem() { return ShinseiItems.coke; }
+    };
+
+    public static final CreativeTabs BOOKS_TAB = new CreativeTabs(TabNames.tabs.BOOKS_TAB) {
+        @Override
+        public Item getTabIconItem() { return ShinseiItems.book_axe; }
+    };
+
+    public static final CreativeTabs TOOLS_TAB = new CreativeTabs(TabNames.tabs.TOOLS_TAB) {
+        @Override
+        public Item getTabIconItem() { return ShinseiItems.iron_hammer; }
     };
 
 }

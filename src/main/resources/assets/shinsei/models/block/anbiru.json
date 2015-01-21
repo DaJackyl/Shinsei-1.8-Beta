@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "down": "shinsei:blocks/anbiru_bot",
+        "up": "shinsei:blocks/anbiru_top",
+        "north": "shinsei:blocks/anbiru_side",
+        "east": "shinsei:blocks/anbiru_side",
+        "west": "shinsei:blocks/anbiru_side",
+        "south": "shinsei:blocks/anbiru_side",
+        "particle": "shinsei:blocks/anbiru_side"
+    }
+}

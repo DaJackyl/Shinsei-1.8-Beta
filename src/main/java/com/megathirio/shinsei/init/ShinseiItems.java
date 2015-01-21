@@ -1,9 +1,11 @@
 package com.megathirio.shinsei.init;
 
+import com.megathirio.shinsei.items.books.*;
 import com.megathirio.shinsei.items.dusts.*;
 import com.megathirio.shinsei.items.fuels.*;
 import com.megathirio.shinsei.items.gems.*;
 import com.megathirio.shinsei.items.nuggets.*;
+import com.megathirio.shinsei.items.tools.*;
 
 public class ShinseiItems {
 
@@ -44,6 +46,12 @@ public class ShinseiItems {
         public static NuggetShinsei nickel_nugget = new NuggetNickel();
         public static NuggetShinsei platinum_nugget = new NuggetPlatinum();
         public static NuggetShinsei silver_nugget = new NuggetSilver();
+    //Books
+        public static BookShinsei book_axe = new BookAxe();
+    //Tools
+        public static ToolShinsei iron_hammer = new ToolIronHammer();
+    //Tool Parts
+        public static ToolShinsei iron_axe_head = new ToolIronAxeHead();
 
 //Registers renders for Items
     public static void registerRenders(){
@@ -83,5 +91,11 @@ public class ShinseiItems {
         NuggetNickel.registerRender(nickel_nugget);
         NuggetPlatinum.registerRender(platinum_nugget);
         NuggetSilver.registerRender(silver_nugget);
+    //Books
+        BookAxe.registerRender(book_axe);
+    //Tools
+        ToolIronHammer.registerRender(iron_hammer);
+    //Tools
+        ToolIronAxeHead.registerRender(iron_axe_head);
     }
 }

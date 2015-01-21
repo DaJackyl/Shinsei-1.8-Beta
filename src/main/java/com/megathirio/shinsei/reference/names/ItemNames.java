@@ -45,4 +45,13 @@ public final class ItemNames {
         public static final String PLATINUM_NUGGET = "platinum_nugget";
         public static final String SILVER_NUGGET = "silver_nugget";
     }
+
+    public static final class books {
+        public static final String BOOK_AXE = "book_axe";
+    }
+
+    public static final class tools {
+        public static final String IRON_HAMMER = "iron_hammer";
+        public static final String IRON_AXE_HEAD = "iron_axe_head";
+    }
 }

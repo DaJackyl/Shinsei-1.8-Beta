@@ -1,6 +1,8 @@
 package com.megathirio.shinsei.init;
 
 import com.megathirio.shinsei.blocks.*;
+import com.megathirio.shinsei.blocks.machines.MachineAnbiru;
+import com.megathirio.shinsei.blocks.machines.MachineShinsei;
 import com.megathirio.shinsei.blocks.minerals.*;
 import com.megathirio.shinsei.blocks.ores.*;
 
@@ -54,7 +56,6 @@ public class ShinseiBlocks {
     public static MineralShinsei halite_block = new MineralHalite();
     public static MineralShinsei limestone_block = new MineralLimestone();
     public static MineralShinsei siltstone_block = new MineralSiltstone();
-
     //Ores
     public static OreShinsei acanthite_ore = new OreAcanthite();
     public static OreShinsei amethyst_ore = new OreAmethyst();
@@ -97,6 +98,8 @@ public class ShinseiBlocks {
     public static OreShinsei topaz_ore = new OreTopaz();
     public static OreShinsei turquoise_ore = new OreTurquoise();
     public static OreShinsei uraninite_ore = new OreUraninite();
+    //Machines
+    public static MachineShinsei anbiru = new MachineAnbiru();
 
     //Registers renders for Blocks
     public static void registerRenders() {
@@ -190,5 +193,7 @@ public class ShinseiBlocks {
         OreTopaz.registerRender(topaz_ore);
         OreTurquoise.registerRender(turquoise_ore);
         OreUraninite.registerRender(uraninite_ore);
+        //Machines
+        MachineAnbiru.registerRender(anbiru);
     }
 }

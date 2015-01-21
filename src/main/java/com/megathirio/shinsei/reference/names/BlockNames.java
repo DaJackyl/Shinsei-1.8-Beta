@@ -44,6 +44,9 @@ public final class BlockNames {
         public static final String ZINC_BLOCK = "zinc_block";
     }
 
+    public static final class machines {
+        public static final String ANBIRU = "anbiru";
+    }
     public static final class minerals {
         public static final String BASALT_BLOCK = "basalt_block";
         public static final String BASALT_COBBLE_BLOCK = "basalt_cobble_block";

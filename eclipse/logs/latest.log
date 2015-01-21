@@ -1,108 +1,42 @@
-[10:57:31] [main/INFO]: Logging in with username & password
-[10:57:35] [Client thread/INFO]: Setting user: DaJackyl
-[10:57:37] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:57:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
-[10:57:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:57:44] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[10:57:44] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:57:44] [Thread-7/INFO]: OpenAL initialized.
-[10:57:44] [Sound Library Loader/INFO]: Sound engine started
-[10:57:46] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:57:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
-[10:57:47] [Client thread/INFO]: SoundSystem shutting down...
-[10:57:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[10:57:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:57:48] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[10:57:48] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:57:48] [Thread-9/INFO]: OpenAL initialized.
-[10:57:48] [Sound Library Loader/INFO]: Sound engine started
-[10:57:50] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:58:00] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[10:58:00] [Server thread/INFO]: Generating keypair
-[10:58:00] [Server thread/INFO]: Preparing start region for level 0
-[10:58:01] [Server thread/INFO]: Preparing spawn area: 60%
-[10:58:02] [Server thread/INFO]: Changing view distance to 12, from 10
-[10:58:02] [Server thread/INFO]: DaJackyl[local:E:64c2638b] logged in with entity id 287 at (-134.62776152619335, 5.0, -325.79582105247823)
-[10:58:02] [Server thread/INFO]: DaJackyl joined the game
-[10:58:07] [Server thread/INFO]: Saving and pausing game...
-[10:58:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:58:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:58:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:58:07] [Server thread/INFO]: Stopping server
-[10:58:07] [Server thread/INFO]: Saving players
-[10:58:07] [Server thread/INFO]: Saving worlds
-[10:58:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:58:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:58:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:58:11] [Client thread/INFO]: Deleting level New World
-[10:58:11] [Client thread/INFO]: Attempt 1...
-[10:58:15] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[10:58:15] [Server thread/INFO]: Generating keypair
-[10:58:15] [Server thread/INFO]: Converting map!
-[10:58:15] [Server thread/INFO]: Scanning folders...
-[10:58:15] [Server thread/INFO]: Total conversion count is 0
-[10:58:15] [Server thread/WARN]: Unable to find spawn biome
-[10:58:15] [Server thread/INFO]: Preparing start region for level 0
-[10:58:16] [Server thread/INFO]: Preparing spawn area: 6%
-[10:58:17] [Server thread/INFO]: Preparing spawn area: 13%
-[10:58:18] [Server thread/INFO]: Preparing spawn area: 20%
-[10:58:19] [Server thread/INFO]: Preparing spawn area: 26%
-[10:58:20] [Server thread/INFO]: Preparing spawn area: 34%
-[10:58:21] [Server thread/INFO]: Preparing spawn area: 41%
-[10:58:22] [Server thread/INFO]: Preparing spawn area: 48%
-[10:58:23] [Server thread/INFO]: Preparing spawn area: 54%
-[10:58:24] [Server thread/INFO]: Preparing spawn area: 61%
-[10:58:25] [Server thread/INFO]: Preparing spawn area: 68%
-[10:58:26] [Server thread/INFO]: Preparing spawn area: 76%
-[10:58:27] [Server thread/INFO]: Preparing spawn area: 83%
-[10:58:28] [Server thread/INFO]: Preparing spawn area: 90%
-[10:58:29] [Server thread/INFO]: Preparing spawn area: 97%
-[10:58:30] [Server thread/INFO]: Changing view distance to 12, from 10
-[10:58:30] [Server thread/INFO]: DaJackyl[local:E:81ffe61b] logged in with entity id 3111 at (-8.5, 84.0, -9.5)
-[10:58:30] [Server thread/INFO]: DaJackyl joined the game
-[10:58:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2100ms behind, skipping 42 tick(s)
-[10:58:32] [Server thread/INFO]: Saving and pausing game...
-[10:58:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:58:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:58:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:58:48] [Server thread/INFO]: DaJackyl lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[10:58:48] [Server thread/INFO]: DaJackyl left the game
-[10:58:48] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[10:58:48] [Server thread/INFO]: Saving and pausing game...
-[10:58:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:58:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:58:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:58:53] [Server thread/INFO]: Stopping server
-[10:58:53] [Server thread/INFO]: Saving players
-[10:58:53] [Server thread/INFO]: Saving worlds
-[10:58:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:58:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:58:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:58:58] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[10:58:58] [Server thread/INFO]: Generating keypair
-[10:58:58] [Server thread/INFO]: Preparing start region for level 0
-[10:58:59] [Server thread/INFO]: Preparing spawn area: 65%
-[10:59:00] [Server thread/INFO]: Changing view distance to 12, from 10
-[10:59:00] [Server thread/INFO]: DaJackyl[local:E:1ee58a8f] logged in with entity id 3450 at (-8.5, 84.0, -9.5)
-[10:59:00] [Server thread/INFO]: DaJackyl joined the game
-[10:59:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5115ms behind, skipping 102 tick(s)
-[10:59:59] [Server thread/INFO]: [DaJackyl: Given [Glowstone] * 1 to DaJackyl]
-[10:59:59] [Client thread/INFO]: [CHAT] Given [Glowstone] * 1 to DaJackyl
-[11:00:12] [Server thread/INFO]: Saving and pausing game...
-[11:00:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[11:00:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[11:00:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[11:00:13] [Server thread/INFO]: Saving and pausing game...
-[11:00:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[11:00:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[11:00:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[11:00:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 33482ms behind, skipping 669 tick(s)
-[11:00:13] [Server thread/INFO]: Stopping server
-[11:00:13] [Server thread/INFO]: Saving players
-[11:00:13] [Server thread/INFO]: Saving worlds
-[11:00:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[11:00:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[11:00:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[11:00:17] [Client thread/INFO]: Stopping!
-[11:00:17] [Client thread/INFO]: SoundSystem shutting down...
-[11:00:18] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[05:58:26] [main/INFO]: Logging in with username & password
+[05:58:41] [Client thread/INFO]: Setting user: DaJackyl
+[05:58:48] [Client thread/INFO]: LWJGL Version: 2.9.1
+[05:58:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
+[05:59:00] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[05:59:00] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[05:59:00] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[05:59:01] [Thread-7/INFO]: OpenAL initialized.
+[05:59:01] [Sound Library Loader/INFO]: Sound engine started
+[05:59:04] [Client thread/INFO]: Created: 512x512 textures-atlas
+[05:59:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
+[05:59:06] [Client thread/INFO]: SoundSystem shutting down...
+[05:59:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[05:59:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[05:59:06] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[05:59:06] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[05:59:06] [Thread-9/INFO]: OpenAL initialized.
+[05:59:07] [Sound Library Loader/INFO]: Sound engine started
+[05:59:10] [Client thread/INFO]: Created: 512x512 textures-atlas
+[05:59:17] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[05:59:17] [Server thread/INFO]: Generating keypair
+[05:59:17] [Server thread/INFO]: Preparing start region for level 0
+[05:59:18] [Server thread/INFO]: Preparing spawn area: 16%
+[05:59:19] [Server thread/INFO]: Preparing spawn area: 81%
+[05:59:20] [Server thread/INFO]: Changing view distance to 12, from 10
+[05:59:20] [Server thread/INFO]: DaJackyl[local:E:8c742c1c] logged in with entity id 405 at (168.55332026038343, 71.0, 100.80586012377464)
+[05:59:20] [Server thread/INFO]: DaJackyl joined the game
+[05:59:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3326ms behind, skipping 66 tick(s)
+[05:59:59] [Server thread/INFO]: Saving and pausing game...
+[05:59:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[05:59:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[05:59:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[05:59:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 15763ms behind, skipping 315 tick(s)
+[06:00:00] [Server thread/INFO]: Stopping server
+[06:00:00] [Server thread/INFO]: Saving players
+[06:00:00] [Server thread/INFO]: Saving worlds
+[06:00:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[06:00:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[06:00:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[06:00:03] [Client thread/INFO]: Stopping!
+[06:00:03] [Client thread/INFO]: SoundSystem shutting down...
+[06:00:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
