@@ -14,78 +14,33 @@ import net.minecraft.item.ItemStack;
 import java.util.Iterator;
 import java.util.Map;
 
-public class AnbiruRecipes
-{
+public class AnbiruRecipes {
     private static final AnbiruRecipes processingBase = new AnbiruRecipes();
     private Map processingList = Maps.newHashMap();
     private Map experienceList = Maps.newHashMap();
 
-    public static AnbiruRecipes instance() { return processingBase; }
-
-    private AnbiruRecipes()
-    {
-        this.addProcessingRecipe(new ItemStack(Blocks.sponge, 1, 1), new ItemStack(Blocks.sponge, 1, 0), 0.15F);
+    public static AnbiruRecipes instance() {
+        return processingBase;
     }
 
-    public void addProcessing(Item input, ItemStack stack, float experience)
-    {
-        this.addProcessingRecipe(new ItemStack(input, 1, 32767), stack, experience);
+    private AnbiruRecipes() {
+//        addProcessing(new ItemStack(Items.iron_ingot), new ItemStack(ShinseiItems.book_axe), new ItemStack(ShinseiItems.iron_axe_blade), 0.15F);
     }
 
-    public void addProcessingRecipe(ItemStack input, ItemStack stack, float experience)
-    {
-        this.processingList.put(input, stack);
-        this.experienceList.put(stack, Float.valueOf(experience));
+    public void addProcessing(ItemStack bookItem, ItemStack inputItem, ItemStack stackOut, float experience) {
+        ItemStack[] recipeStack = {bookItem, inputItem};
+
+        processingList.put(recipeStack, stackOut);
+        experienceList.put(stackOut, 0.15F);
+
     }
 
-    public ItemStack getProcessingResult(ItemStack stack)
-    {
-        Iterator iterator = this.processingList.entrySet().iterator();
-        Map.Entry entry;
-
-        do
-        {
-            if (!iterator.hasNext())
-            {
-                return null;
-            }
-
-            entry = (Map.Entry)iterator.next();
-        }
-        while (!this.compareItemStacks(stack, (ItemStack)entry.getKey()));
-
-        return (ItemStack)entry.getValue();
+    public ItemStack getProcessingResult(ItemStack[] stack) {
+        return (ItemStack)processingList.get(stack);
     }
 
-    private boolean compareItemStacks(ItemStack stack1, ItemStack stack2)
-    {
-        return stack2.getItem() == stack1.getItem() && (stack2.getMetadata() == 32767 || stack2.getMetadata() == stack1.getMetadata());
+    public Map getProcessingList() {
+        return processingList;
     }
 
-    public Map getProcessingList()
-    {
-        return this.processingList;
-    }
-
-    public float getProcessingExperience(ItemStack stack)
-    {
-        float ret = stack.getItem().getSmeltingExperience(stack);
-        if (ret != -1) return ret;
-
-        Iterator iterator = this.experienceList.entrySet().iterator();
-        Map.Entry entry;
-
-        do
-        {
-            if (!iterator.hasNext())
-            {
-                return 0.0F;
-            }
-
-            entry = (Map.Entry)iterator.next();
-        }
-        while (!this.compareItemStacks(stack, (ItemStack)entry.getKey()));
-
-        return ((Float)entry.getValue()).floatValue();
-    }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "shinsei:items/iron_axe_head"
+    "layer0": "shinsei:items/book_pickaxe"
   },
   "display": {
     "thirdperson": {

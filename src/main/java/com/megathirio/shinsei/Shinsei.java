@@ -6,6 +6,7 @@ import com.megathirio.shinsei.core.handlers.GuiHandlerRegistry;
 import com.megathirio.shinsei.core.handlers.WorldGenHandler;
 import com.megathirio.shinsei.core.oredict.ShinseiOreDict;
 import com.megathirio.shinsei.core.proxy.CommonProxy;
+import com.megathirio.shinsei.init.ShinseiRecipes;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -47,6 +48,7 @@ public class Shinsei {
         NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandlerAnbiru());
         //Ores Ore Dictionary Registration
         ShinseiOreDict.blocks();
+        ShinseiRecipes.init();
     }
 
     @EventHandler

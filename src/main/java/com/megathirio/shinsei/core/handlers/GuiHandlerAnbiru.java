@@ -23,10 +23,10 @@ public class GuiHandlerAnbiru implements IGuiHandler {
 
             BlockPos xyz = new BlockPos(x, y, z);
             TileEntity tileEntity = world.getTileEntity(xyz);
-            if (tileEntity instanceof TileEntityAnbiru) {
-                TileEntityAnbiru teAnbiru = (TileEntityAnbiru) tileEntity;
-                return new ContainerAnbiru(player.inventory, teAnbiru);
-            }
+//            if (tileEntity instanceof TileEntityAnbiru) {
+//                TileEntityAnbiru teAnbiru = (TileEntityAnbiru) tileEntity;
+//                return new ContainerAnbiru(player.inventory, teAnbiru);
+//            }
             return null;
         }
 
@@ -39,10 +39,10 @@ public class GuiHandlerAnbiru implements IGuiHandler {
 
             BlockPos xyz = new BlockPos(x, y, z);
             TileEntity tileEntity = world.getTileEntity(xyz);
-            if (tileEntity instanceof TileEntityAnbiru) {
-                TileEntityAnbiru teAnbiru = (TileEntityAnbiru) tileEntity;
-                return new GuiAnbiru(player.inventory, teAnbiru);
-            }
+//            if (tileEntity instanceof TileEntityAnbiru) {
+//                TileEntityAnbiru teAnbiru = (TileEntityAnbiru) tileEntity;
+//                return new GuiAnbiru(player.inventory, teAnbiru);
+//            }
             return null;
         }
 }

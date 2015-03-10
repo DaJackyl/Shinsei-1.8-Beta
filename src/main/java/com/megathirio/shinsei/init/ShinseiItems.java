@@ -6,6 +6,7 @@ import com.megathirio.shinsei.items.fuels.*;
 import com.megathirio.shinsei.items.gems.*;
 import com.megathirio.shinsei.items.nuggets.*;
 import com.megathirio.shinsei.items.tools.*;
+import com.megathirio.shinsei.items.tools.parts.*;
 
 public class ShinseiItems {
 
@@ -48,12 +49,45 @@ public class ShinseiItems {
         public static NuggetShinsei silver_nugget = new NuggetSilver();
     //Books
         public static BookShinsei book_axe = new BookAxe();
+        public static BookShinsei book_chisel = new BookChisel();
+        public static BookShinsei book_hoe = new BookHoe();
+        public static BookShinsei book_pickaxe = new BookPickaxe();
+        public static BookShinsei book_shovel = new BookShovel();
+        public static BookShinsei book_sword = new BookSword();
     //Tools
-        public static ToolShinsei iron_hammer = new ToolIronHammer();
-    //Tool Parts
-        public static ToolShinsei iron_axe_head = new ToolIronAxeHead();
 
-//Registers renders for Items
+        public static ToolShinsei iron_chisel = new ToolIronChisel();
+        public static ToolShinsei iron_hammer = new ToolIronHammer();
+
+        public static ToolShinsei stone_chisel = new ToolStoneChisel();
+
+    //Tool Parts
+        public static ToolShinsei wood_tool_handle = new ToolWoodToolHandle();
+
+        public static ToolShinsei gold_axe_blade = new ToolGoldAxeBlade();
+        public static ToolShinsei gold_pickaxe_blade = new ToolGoldPickaxeBlade();
+
+        public static ToolShinsei iron_axe_blade = new ToolIronAxeBlade();
+        public static ToolShinsei iron_chisel_blade = new ToolIronChiselBlade();
+        public static ToolShinsei iron_hoe_blade = new ToolIronHoeBlade();
+        public static ToolShinsei iron_pickaxe_blade = new ToolIronPickaxeBlade();
+        public static ToolShinsei iron_shovel_blade = new ToolIronShovelBlade();
+        public static ToolShinsei iron_sword_blade = new ToolIronSwordBlade();
+
+//        public static ToolShinsei stone_axe_blade = new ToolStoneAxeBlade();
+        public static ToolShinsei stone_chisel_blade = new ToolStoneChiselBlade();
+        public static ToolShinsei stone_hoe_blade = new ToolStoneAxeBlade();
+        public static ToolShinsei stone_pickaxe_blade = new ToolStonePickaxeBlade();
+        public static ToolShinsei stone_shovel_blade = new ToolStoneShovelBlade();
+        public static ToolShinsei stone_sword_blade = new ToolStoneSwordBlade();
+
+        public static ToolShinsei wood_axe_blade = new ToolWoodAxeBlade();
+        public static ToolShinsei wood_hoe_blade = new ToolWoodHoeBlade();
+        public static ToolShinsei wood_pickaxe_blade = new ToolWoodPickaxeBlade();
+        public static ToolShinsei wood_shovel_blade = new ToolWoodShovelBlade();
+        public static ToolShinsei wood_sword_blade = new ToolWoodSwordBlade();
+
+    //Registers renders for Items
     public static void registerRenders(){
     //Fuels
         FuelSplitWood.registerRender(split_wood);
@@ -93,9 +127,37 @@ public class ShinseiItems {
         NuggetSilver.registerRender(silver_nugget);
     //Books
         BookAxe.registerRender(book_axe);
+        BookChisel.registerRender(book_chisel);
+        BookHoe.registerRender(book_hoe);
+        BookPickaxe.registerRender(book_pickaxe);
+        BookShovel.registerRender(book_shovel);
+        BookSword.registerRender(book_sword);
     //Tools
         ToolIronHammer.registerRender(iron_hammer);
-    //Tools
-        ToolIronAxeHead.registerRender(iron_axe_head);
+    //Tool Parts
+        ToolWoodToolHandle.registerRender(wood_tool_handle);
+
+        ToolGoldAxeBlade.registerRender(gold_axe_blade);
+
+        ToolIronAxeBlade.registerRender(iron_axe_blade);
+        ToolIronChiselBlade.registerRender(iron_chisel_blade);
+        ToolIronHoeBlade.registerRender(iron_hoe_blade);
+        ToolIronPickaxeBlade.registerRender(iron_pickaxe_blade);
+        ToolIronShovelBlade.registerRender(iron_shovel_blade);
+        ToolIronSwordBlade.registerRender(iron_sword_blade);
+
+//        ToolStoneAxeBlade.registerRender(stone_axe_blade);
+        ToolStoneChiselBlade.registerRender(stone_chisel_blade);
+        ToolStoneHoeBlade.registerRender(stone_hoe_blade);
+        ToolStonePickaxeBlade.registerRender(stone_pickaxe_blade);
+        ToolStoneShovelBlade.registerRender(stone_shovel_blade);
+        ToolStoneSwordBlade.registerRender(stone_sword_blade);
+
+        ToolWoodAxeBlade.registerRender(wood_axe_blade);
+        ToolWoodHoeBlade.registerRender(wood_hoe_blade);
+        ToolWoodPickaxeBlade.registerRender(wood_pickaxe_blade);
+        ToolWoodShovelBlade.registerRender(wood_shovel_blade);
+        ToolWoodSwordBlade.registerRender(wood_sword_blade);
+
     }
 }

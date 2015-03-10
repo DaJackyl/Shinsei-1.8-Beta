@@ -146,12 +146,43 @@ item.silver_nugget.name=Silver Nugget
 
 #Books
 item.book_axe.name=Book of Axes
+item.book_chisel.name=Book of Chisels
+item.book_hoe.name=Book of Hoes
+item.book_pickaxe.name=Book of Pickaxes
+item.book_shovel.name=Book of Shovels
+item.book_sword.name=Book of Swords
 
 #Tools
+item.iron_chisel.name=Iron Chisel
 item.iron_hammer.name=Iron Hammer
 
+item.stone_chisel.name=Stone Chisel
+
 #Tool Parts
-item.iron_axe_head.name=Iron Axe Head
+item.wood_tool_handle.name=Wooden Tool Handle
+
+item.gold_axe_blade.name=Golden Axe Blade
+item.gold_pickaxe_blade.name=Golden Pickaxe Blade
+
+item.iron_axe_blade.name=Iron Axe Blade
+item.iron_chisel_blade.name=Iron Chisel Blade
+item.iron_hoe_blade.name=Iron Hoe Blade
+item.iron_pickaxe_blade.name=Iron Pickaxe Blade
+item.iron_shovel_blade.name=Iron Shovel Blade
+item.iron_sword_blade.name=Iron Sword Blade
+
+item.stone_axe_blade.name=Stone Axe Blade
+item.stone_chisel_blade.name=Stone Chisel Blade
+item.stone_hoe_blade.name=Stone Hoe Blade
+item.stone_pickaxe_blade.name=Stone Pickaxe Blade
+item.stone_shovel_blade.name=Stone Shovel Blade
+item.stone_sword_blade.name=Stone Sword Blade
+
+item.wood_axe_blade.name=Wooden Axe Blade
+item.wood_hoe_blade.name=Wooden Hoe Blade
+item.wood_pickaxe_blade.name=Wooden Pickaxe Blade
+item.wood_shovel_blade.name=Wooden Shovel Blade
+item.wood_sword_blade.name=Wooden Sword Blade
 
 #Containers
 container.anbiru.name=Anbiru
