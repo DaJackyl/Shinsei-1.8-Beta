@@ -10,7 +10,4 @@ public class ToolIronAxeBlade extends ToolShinsei {
         super(name);
 
     }
-
-
-
 }

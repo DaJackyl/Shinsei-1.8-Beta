@@ -13,7 +13,7 @@ public class ShinseiCraftingManager {
     //Tool Parts
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinseiItems.wood_tool_handle, 1), "@","@", '@', "stickWood"));
 
-        //Iron
+       //Iron
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinseiItems.iron_chisel_blade, 1), "@@ ","  @","   ", '@', "ingotIron"));
 
         //Stone

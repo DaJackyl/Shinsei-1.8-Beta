@@ -12,33 +12,42 @@ import java.util.Map;
 
 public class ToolRecipes {
 
-    private static HashMap<ItemStack, String> axeBladeRecipes = new HashMap<ItemStack, String>();
+    private static HashMap<ItemStack[], String> bladeRecipes = new HashMap<ItemStack[], String>();
+    private static HashMap<ItemStack[], ItemStack> toolRecipes = new HashMap<ItemStack[], ItemStack>();
 
     public static void addParts() {
+        bladeRecipes = new HashMap<ItemStack[], String>();
 
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinseiItems.wood_tool_handle, 1), "@","@", '@', "stickWood"));
 
-        axeBladeRecipes.put(new ItemStack(ShinseiItems.iron_axe_blade, 1), "ingotIron");
-        axeBladeRecipes.put(new ItemStack(ShinseiItems.gold_axe_blade, 1), "ingotGold");
-        for (Map.Entry<ItemStack, String> entry : axeBladeRecipes.entrySet()) {
-            GameRegistry.addRecipe(new ShapelessOreRecipe(entry.getKey(), entry.getValue(), ShinseiItems.book_axe));
+        addBladeRecipe(new ItemStack[]{new ItemStack(ShinseiItems.gold_axe_blade, 1), new ItemStack(ShinseiItems.book_axe, 1)}, "ingotGold");
+        addBladeRecipe(new ItemStack[]{new ItemStack(ShinseiItems.iron_axe_blade, 1), new ItemStack(ShinseiItems.book_axe, 1)}, "ingotIron");
+        addBladeRecipe(new ItemStack[]{new ItemStack(ShinseiItems.gold_pickaxe_blade, 1), new ItemStack(ShinseiItems.book_pickaxe, 1)}, "ingotGold");
+        addBladeRecipe(new ItemStack[]{new ItemStack(ShinseiItems.iron_pickaxe_blade, 1), new ItemStack(ShinseiItems.book_pickaxe, 1)}, "ingotIron");
+
+        for (Map.Entry<ItemStack[], String> entry : bladeRecipes.entrySet()) {
+            GameRegistry.addRecipe(new ShapelessOreRecipe(entry.getKey()[0], entry.getValue(), entry.getKey()[1]));
         }
 
-        HashMap<ItemStack, String> pickaxeBladeRecipes = new HashMap<ItemStack, String>();
-        pickaxeBladeRecipes.put(new ItemStack(ShinseiItems.iron_pickaxe_blade, 1), "ingotIron");
-        pickaxeBladeRecipes.put(new ItemStack(ShinseiItems.gold_pickaxe_blade, 1), "ingotGold");
-        for (Map.Entry<ItemStack, String> entry : pickaxeBladeRecipes.entrySet()) {
-            GameRegistry.addRecipe(new ShapelessOreRecipe(entry.getKey(), entry.getValue(), ShinseiItems.book_pickaxe));
-        }
     }
 
     public static void addTools(){
-        HashMap<ItemStack, ItemStack> toolRecipes = new HashMap<ItemStack, ItemStack>();
-        toolRecipes.put(new ItemStack(Items.iron_axe, 1), new ItemStack(ShinseiItems.iron_axe_blade));
-        toolRecipes.put(new ItemStack(Items.golden_axe, 1), new ItemStack(ShinseiItems.gold_axe_blade));
-        for(Map.Entry<ItemStack, ItemStack> entry : toolRecipes.entrySet()){
-            GameRegistry.addRecipe(new ShapelessOreRecipe(entry.getKey(), entry.getValue(), ShinseiItems.wood_tool_handle));
+        addToolRecipe(new ItemStack[]{new ItemStack(Items.iron_axe, 1), new ItemStack(ShinseiItems.iron_axe_blade)}, new ItemStack(ShinseiItems.wood_tool_handle));
+        addToolRecipe(new ItemStack[]{new ItemStack(Items.golden_axe, 1), new ItemStack(ShinseiItems.gold_axe_blade)}, new ItemStack(ShinseiItems.wood_tool_handle));
+        addToolRecipe(new ItemStack[]{new ItemStack(Items.iron_pickaxe, 1), new ItemStack(ShinseiItems.iron_pickaxe_blade)}, new ItemStack(ShinseiItems.wood_tool_handle));
+        addToolRecipe(new ItemStack[]{new ItemStack(Items.golden_pickaxe, 1), new ItemStack(ShinseiItems.gold_pickaxe_blade)}, new ItemStack(ShinseiItems.wood_tool_handle));
+
+        for(Map.Entry<ItemStack[], ItemStack> entry : toolRecipes.entrySet()){
+            GameRegistry.addRecipe(new ShapelessOreRecipe(entry.getKey()[0], entry.getValue(), entry.getKey()[1]));
         }
 
+    }
+
+    public static void addBladeRecipe(ItemStack[] components, String material){
+        bladeRecipes.put(components, material);
+    }
+
+    public static void addToolRecipe(ItemStack[] components, ItemStack handle){
+        toolRecipes.put(components, handle);
     }
 }

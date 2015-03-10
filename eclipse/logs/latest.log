@@ -1,22 +1,39 @@
-[10:07:09] [main/INFO]: Logging in with username & password
-[10:07:13] [Client thread/INFO]: Setting user: TheJackyl
-[10:07:16] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:07:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
-[10:07:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:07:23] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[10:07:23] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:07:23] [Thread-7/INFO]: OpenAL initialized.
-[10:07:23] [Sound Library Loader/INFO]: Sound engine started
-[10:07:25] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:07:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
-[10:07:27] [Client thread/INFO]: SoundSystem shutting down...
-[10:07:27] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[10:07:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:07:27] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[10:07:27] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:07:27] [Thread-9/INFO]: OpenAL initialized.
-[10:07:27] [Sound Library Loader/INFO]: Sound engine started
-[10:07:29] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:07:58] [Client thread/INFO]: Stopping!
-[10:07:58] [Client thread/INFO]: SoundSystem shutting down...
-[10:07:59] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[11:00:55] [main/INFO]: Logging in with username & password
+[11:00:59] [Client thread/INFO]: Setting user: TheJackyl
+[11:01:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:01:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
+[11:01:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:01:09] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[11:01:09] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:01:09] [Thread-7/INFO]: OpenAL initialized.
+[11:01:09] [Sound Library Loader/INFO]: Sound engine started
+[11:01:11] [Client thread/INFO]: Created: 512x512 textures-atlas
+[11:01:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
+[11:01:13] [Client thread/INFO]: SoundSystem shutting down...
+[11:01:13] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[11:01:13] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:01:13] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[11:01:13] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:01:13] [Thread-9/INFO]: OpenAL initialized.
+[11:01:13] [Sound Library Loader/INFO]: Sound engine started
+[11:01:15] [Client thread/INFO]: Created: 512x512 textures-atlas
+[11:01:23] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[11:01:23] [Server thread/INFO]: Generating keypair
+[11:01:24] [Server thread/INFO]: Preparing start region for level 0
+[11:01:25] [Server thread/INFO]: Preparing spawn area: 58%
+[11:01:25] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:01:26] [Server thread/INFO]: TheJackyl[local:E:d20c7bfd] logged in with entity id 271 at (-13.300000011920929, 64.0, 247.66203586175442)
+[11:01:26] [Server thread/INFO]: TheJackyl joined the game
+[11:01:47] [Server thread/INFO]: Saving and pausing game...
+[11:01:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:01:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:01:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:01:48] [Server thread/INFO]: Stopping server
+[11:01:48] [Server thread/INFO]: Saving players
+[11:01:48] [Server thread/INFO]: Saving worlds
+[11:01:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:01:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:01:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:01:50] [Client thread/INFO]: Stopping!
+[11:01:50] [Client thread/INFO]: SoundSystem shutting down...
+[11:01:50] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
