@@ -40,6 +40,11 @@ public class ShinseiTabs {
         public Item getTabIconItem() { return ShinseiItems.amethyst_gem; }
     };
 
+    public static final CreativeTabs INGOTS_TAB = new CreativeTabs(TabNames.tabs.INGOTS_TAB) {
+        @Override
+        public Item getTabIconItem() { return ShinseiItems.barium_ingot; }
+    };
+
     public static final CreativeTabs ITEMS_TAB = new CreativeTabs(TabNames.tabs.ITEMS_TAB) {
         @Override
         public Item getTabIconItem() { return ShinseiItems.coke; }

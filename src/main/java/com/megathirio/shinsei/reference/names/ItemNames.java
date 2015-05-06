@@ -23,7 +23,6 @@ public final class ItemNames {
         public static final String AQUAMARINE_GEM = "aquamarine_gem";
         public static final String FLUORITE_GEM = "fluorite_gem";
         public static final String JADE_GEM = "jade_gem";
-        public static final String OLIVINE_GEM = "olivine_gem";
         public static final String ONYX_GEM = "onyx_gem";
         public static final String OPAL_GEM = "opal_gem";
         public static final String PERIDOT_GEM = "peridot_gem";
@@ -44,6 +43,17 @@ public final class ItemNames {
         public static final String NICKEL_NUGGET = "nickel_nugget";
         public static final String PLATINUM_NUGGET = "platinum_nugget";
         public static final String SILVER_NUGGET = "silver_nugget";
+    }
+
+    public static final class ingots {
+        public static final String BARIUM_INGOT = "barium_ingot";
+        public static final String CHROMIUM_INGOT = "chromium_ingot";
+        public static final String COBALT_INGOT = "cobalt_ingot";
+        public static final String INDIUM_INGOT = "indium_ingot";
+        public static final String IRIDIUM_INGOT = "iridium_ingot";
+        public static final String NICKEL_INGOT = "nickel_ingot";
+        public static final String PLATINUM_INGOT = "platinum_ingot";
+        public static final String SILVER_INGOT = "silver_ingot";
     }
 
     public static final class books {
@@ -92,4 +102,10 @@ public final class ItemNames {
         public static final String WOOD_SWORD_BLADE = "wood_sword_blade";
 
     }
+
+    public static final class foods {
+        public static final String CURED_BEEF = "cured_beef";
+        public static final String CURED_PORK = "cured_pork";
+    }
+
 }

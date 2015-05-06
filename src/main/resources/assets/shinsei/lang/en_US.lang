@@ -5,6 +5,7 @@ itemGroup.shinsei:fuels_tab=Shinsei Fuels
 itemGroup.shinsei:dusts_tab=Shinsei Dusts
 itemGroup.shinsei:gems_tab=Shinsei Gems
 itemGroup.shinsei:nuggets_tab=Shinsei Nuggets
+itemGroup.shinsei:ingots_tab=Shinsei Ingots
 itemGroup.shinsei:items_tab=Shinsei Items
 itemGroup.shinsei:books_tab=Shinsei Books
 itemGroup.shinsei:tools_tab=Shinsei Tools
@@ -144,6 +145,16 @@ item.nickel_nugget.name=Nickel Nugget
 item.platinum_nugget.name=Platinum Nugget
 item.silver_nugget.name=Silver Nugget
 
+#Ingots
+item.barium_ingot.name=Barium Ingot
+item.chromium_ingot.name=Chromium Ingot
+item.cobalt_ingot.name=Cobalt Ingot
+item.indium_ingot.name=Indium Ingot
+item.iridium_ingot.name=Iridium Ingot
+item.nickel_ingot.name=Nickel Ingot
+item.platinum_ingot.name=Platinum Ingot
+item.silver_ingot.name=Silver Ingot
+
 #Books
 item.book_axe.name=Book of Axes
 item.book_chisel.name=Book of Chisels
@@ -162,7 +173,10 @@ item.stone_chisel.name=Stone Chisel
 item.wood_tool_handle.name=Wooden Tool Handle
 
 item.gold_axe_blade.name=Golden Axe Blade
+item.gold_hoe_blade.name=Golden Hoe Blade
 item.gold_pickaxe_blade.name=Golden Pickaxe Blade
+item.gold_shovel_blade.name=Golden Shovel Blade
+item.gold_sword_blade.name=Golden Sword Blade
 
 item.iron_axe_blade.name=Iron Axe Blade
 item.iron_chisel_blade.name=Iron Chisel Blade
@@ -183,6 +197,10 @@ item.wood_hoe_blade.name=Wooden Hoe Blade
 item.wood_pickaxe_blade.name=Wooden Pickaxe Blade
 item.wood_shovel_blade.name=Wooden Shovel Blade
 item.wood_sword_blade.name=Wooden Sword Blade
+
+#Foods
+item.cured_beef.name=Cured Beef
+item.cured_pork.name=Cured Pork
 
 #Containers
 container.anbiru.name=Anbiru

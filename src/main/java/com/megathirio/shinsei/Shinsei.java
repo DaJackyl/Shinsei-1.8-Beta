@@ -1,12 +1,12 @@
 package com.megathirio.shinsei;
 
+import com.megathirio.shinsei.core.crafting.ShinseiCraftingManager;
 import com.megathirio.shinsei.core.handlers.ConfigHandler;
 import com.megathirio.shinsei.core.handlers.GuiHandlerAnbiru;
 import com.megathirio.shinsei.core.handlers.GuiHandlerRegistry;
 import com.megathirio.shinsei.core.handlers.WorldGenHandler;
 import com.megathirio.shinsei.core.oredict.ShinseiOreDict;
 import com.megathirio.shinsei.core.proxy.CommonProxy;
-import com.megathirio.shinsei.init.ShinseiRecipes;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -40,15 +40,21 @@ public class Shinsei {
         //Register World Generation
         GameRegistry.registerWorldGenerator(new WorldGenHandler(), 2);
 
+        //Items Ore Dictionary Registration
+        ShinseiOreDict.items();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event){
         proxy.registerRenders();
         NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandlerAnbiru());
-        //Ores Ore Dictionary Registration
+
+        //Crafting Manager Intialization
+        ShinseiCraftingManager.init();
+
+        //Blocks Ore Dictionary Registration
         ShinseiOreDict.blocks();
-        ShinseiRecipes.init();
+
     }
 
     @EventHandler
