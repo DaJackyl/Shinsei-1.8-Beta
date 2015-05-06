@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.8-0.2.0a"
+version = "1.8-0.4.0a"
 group= "Shinsei" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "Shinsei"
 
