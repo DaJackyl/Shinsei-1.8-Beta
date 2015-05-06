@@ -110,6 +110,7 @@ item.coke.name=Coke
 item.split_wood.name=Split Wood
 
 #Dusts
+item.arsenic_dust.name=Arsenic Powder
 item.borax_dust.name=Borax Powder
 item.chalk_dust.name=Chalk Powder
 item.graphite_dust.name=Graphite Powder
@@ -201,6 +202,18 @@ item.wood_sword_blade.name=Wooden Sword Blade
 #Foods
 item.cured_beef.name=Cured Beef
 item.cured_pork.name=Cured Pork
+item.poisoned_apple.name=Apple
+item.poisoned_beef.name=Steak
+item.poisoned_bread.name=Bread
+item.poisoned_carrot.name=Carrot
+item.poisoned_chicken.name=Cooked Chicken
+item.poisoned_cod.name=Cooked Fish
+item.poisoned_cookie.name=Cookie
+item.poisoned_melon.name=Melon
+item.poisoned_milk.name=Milk
+item.poisoned_pie.name=Pumpkin Pie
+item.poisoned_pork.name=Cooked Porkchop
+item.poisoned_salmon.name=Cooked Salmon
 
 #Containers
 container.anbiru.name=Anbiru

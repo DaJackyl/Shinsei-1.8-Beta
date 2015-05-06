@@ -7,6 +7,7 @@ public final class ItemNames {
     }
 
     public static final class dusts {
+        public static final String ARSENIC_DUST = "arsenic_dust";
         public static final String BORAX_DUST = "borax_dust";
         public static final String CHALK_DUST = "chalk_dust";
         public static final String GRAPHITE_DUST = "graphite_dust";
@@ -106,6 +107,18 @@ public final class ItemNames {
     public static final class foods {
         public static final String CURED_BEEF = "cured_beef";
         public static final String CURED_PORK = "cured_pork";
+        public static final String POISONED_APPLE = "poisoned_apple";
+        public static final String POISONED_BEEF = "poisoned_beef";
+        public static final String POISONED_BREAD = "poisoned_bread";
+        public static final String POISONED_CARROT = "poisoned_carrot";
+        public static final String POISONED_CHICKEN = "poisoned_chicken";
+        public static final String POISONED_COD = "poisoned_cod";
+        public static final String POISONED_COOKIE = "poisoned_cookie";
+        public static final String POISONED_MELON = "poisoned_melon";
+        public static final String POISONED_MILK = "poisoned_milk";
+        public static final String POISONED_PIE = "poisoned_pie";
+        public static final String POISONED_PORK = "poisoned_pork";
+        public static final String POISONED_SALMON = "poisoned_salmon";
     }
 
 }

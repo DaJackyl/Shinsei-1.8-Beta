@@ -2,9 +2,7 @@ package com.megathirio.shinsei.init;
 
 import com.megathirio.shinsei.items.books.*;
 import com.megathirio.shinsei.items.dusts.*;
-import com.megathirio.shinsei.items.foods.FoodCuredBeef;
-import com.megathirio.shinsei.items.foods.FoodCuredPork;
-import com.megathirio.shinsei.items.foods.FoodShinsei;
+import com.megathirio.shinsei.items.foods.*;
 import com.megathirio.shinsei.items.fuels.*;
 import com.megathirio.shinsei.items.gems.*;
 import com.megathirio.shinsei.items.ingots.*;
@@ -19,8 +17,9 @@ public class ShinseiItems {
         public static FuelShinsei split_wood = new FuelSplitWood();
         public static FuelShinsei coke = new FuelCoke();
     //Dusts
-        public static DustShinsei chalk_dust = new DustChalk();
+        public static FoodShinsei arsenic_dust = new DustArsenic();
         public static DustShinsei borax_dust = new DustBorax();
+        public static DustShinsei chalk_dust = new DustChalk();
         public static DustShinsei graphite_dust = new DustGraphite();
         public static DustShinsei gypsum_dust = new DustGypsum();
         public static DustShinsei salt = new DustSalt();
@@ -105,6 +104,18 @@ public class ShinseiItems {
     //Foods
         public static FoodShinsei cured_beef = new FoodCuredBeef();
         public static FoodShinsei cured_pork = new FoodCuredPork();
+        public static FoodShinsei poisoned_apple = new FoodPoisonedApple();
+        public static FoodShinsei poisoned_beef = new FoodPoisonedBeef();
+        public static FoodShinsei poisoned_bread = new FoodPoisonedBread();
+        public static FoodShinsei poisoned_carrot = new FoodPoisonedCarrot();
+        public static FoodShinsei poisoned_chicken = new FoodPoisonedChicken();
+        public static FoodShinsei poisoned_cod = new FoodPoisonedCod();
+        public static FoodShinsei poisoned_cookie = new FoodPoisonedCookie();
+        public static FoodShinsei poisoned_melon = new FoodPoisonedMelon();
+        public static FoodShinsei poisoned_milk = new FoodPoisonedMilk();
+        public static FoodShinsei poisoned_pie = new FoodPoisonedPie();
+        public static FoodShinsei poisoned_pork = new FoodPoisonedPork();
+        public static FoodShinsei poisoned_salmon = new FoodPoisonedSalmon();
 
     //Registers renders for Items
     public static void registerRenders(){
@@ -112,6 +123,7 @@ public class ShinseiItems {
         FuelSplitWood.registerRender(split_wood);
         FuelCoke.registerRender(coke);
     //Dusts
+        DustArsenic.registerRender(arsenic_dust);
         DustBorax.registerRender(borax_dust);
         DustChalk.registerRender(chalk_dust);
         DustGraphite.registerRender(graphite_dust);
@@ -148,6 +160,11 @@ public class ShinseiItems {
         IngotBarium.registerRender(barium_ingot);
         IngotChromium.registerRender(chromium_ingot);
         IngotCobalt.registerRender(cobalt_ingot);
+        IngotIndium.registerRender(indium_ingot);
+        IngotIridium.registerRender(iridium_ingot);
+        IngotNickel.registerRender(nickel_ingot);
+        IngotPlatinum.registerRender(platinum_ingot);
+        IngotSilver.registerRender(silver_ingot);
     //Books
         BookAxe.registerRender(book_axe);
         BookChisel.registerRender(book_chisel);
@@ -186,9 +203,20 @@ public class ShinseiItems {
         ToolWoodPickaxeBlade.registerRender(wood_pickaxe_blade);
         ToolWoodShovelBlade.registerRender(wood_shovel_blade);
         ToolWoodSwordBlade.registerRender(wood_sword_blade);
-
     //Foods
         FoodCuredBeef.registerRender(cured_beef);
         FoodCuredPork.registerRender(cured_pork);
+        FoodPoisonedApple.registerRender(poisoned_apple);
+        FoodPoisonedBeef.registerRender(poisoned_beef);
+        FoodPoisonedBread.registerRender(poisoned_bread);
+        FoodPoisonedCarrot.registerRender(poisoned_carrot);
+        FoodPoisonedChicken.registerRender(poisoned_chicken);
+        FoodPoisonedCod.registerRender(poisoned_cod);
+        FoodPoisonedCookie.registerRender(poisoned_cookie);
+        FoodPoisonedMelon.registerRender(poisoned_melon);
+        FoodPoisonedMilk.registerRender(poisoned_milk);
+        FoodPoisonedPie.registerRender(poisoned_pie);
+        FoodPoisonedPork.registerRender(poisoned_pork);
+        FoodPoisonedSalmon.registerRender(poisoned_salmon);
     }
 }

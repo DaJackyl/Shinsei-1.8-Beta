@@ -1,40 +1,40 @@
-[12:11:59] [main/INFO]: Logging in with username & password
-[12:12:03] [Client thread/INFO]: Setting user: TheJackyl
-[12:12:07] [Client thread/INFO]: LWJGL Version: 2.9.1
-[12:12:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
-[12:12:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:12:13] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[12:12:13] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:12:13] [Thread-7/INFO]: OpenAL initialized.
-[12:12:13] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[12:12:13] [Sound Library Loader/INFO]: Sound engine started
-[12:12:15] [Client thread/INFO]: Created: 512x512 textures-atlas
-[12:12:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
-[12:12:16] [Client thread/INFO]: SoundSystem shutting down...
-[12:12:17] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[12:12:17] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:12:17] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[12:12:17] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:12:17] [Thread-9/INFO]: OpenAL initialized.
-[12:12:17] [Sound Library Loader/INFO]: Sound engine started
-[12:12:19] [Client thread/INFO]: Created: 512x512 textures-atlas
-[12:12:24] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[12:12:24] [Server thread/INFO]: Generating keypair
-[12:12:25] [Server thread/INFO]: Preparing start region for level 0
-[12:12:26] [Server thread/INFO]: Preparing spawn area: 56%
-[12:12:27] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:12:27] [Server thread/INFO]: TheJackyl[local:E:2d68c3b2] logged in with entity id 342 at (-6.334141703264441, 64.0, 265.3101278245973)
-[12:12:27] [Server thread/INFO]: TheJackyl joined the game
-[12:13:01] [Server thread/INFO]: Saving and pausing game...
-[12:13:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:13:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:13:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:13:02] [Server thread/INFO]: Stopping server
-[12:13:02] [Server thread/INFO]: Saving players
-[12:13:02] [Server thread/INFO]: Saving worlds
-[12:13:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:13:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:13:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:13:04] [Client thread/INFO]: Stopping!
-[12:13:04] [Client thread/INFO]: SoundSystem shutting down...
-[12:13:04] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:51:40] [main/INFO]: Logging in with username & password
+[14:51:44] [Client thread/INFO]: Setting user: TheJackyl
+[14:51:47] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:51:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
+[14:51:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:51:52] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[14:51:52] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:51:52] [Thread-7/INFO]: OpenAL initialized.
+[14:51:52] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[14:51:53] [Sound Library Loader/INFO]: Sound engine started
+[14:51:55] [Client thread/INFO]: Created: 512x512 textures-atlas
+[14:51:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shinsei Mod
+[14:51:56] [Client thread/INFO]: SoundSystem shutting down...
+[14:51:56] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:51:56] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:51:56] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[14:51:56] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:51:56] [Thread-9/INFO]: OpenAL initialized.
+[14:51:57] [Sound Library Loader/INFO]: Sound engine started
+[14:51:58] [Client thread/INFO]: Created: 512x512 textures-atlas
+[14:52:02] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[14:52:02] [Server thread/INFO]: Generating keypair
+[14:52:03] [Server thread/INFO]: Preparing start region for level 0
+[14:52:04] [Server thread/INFO]: Preparing spawn area: 53%
+[14:52:05] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:52:05] [Server thread/INFO]: TheJackyl[local:E:fe7464d1] logged in with entity id 342 at (63.57259101855325, 64.0, 217.92206937061547)
+[14:52:05] [Server thread/INFO]: TheJackyl joined the game
+[14:53:47] [Server thread/INFO]: Saving and pausing game...
+[14:53:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:53:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:53:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:53:47] [Server thread/INFO]: Stopping server
+[14:53:47] [Server thread/INFO]: Saving players
+[14:53:47] [Server thread/INFO]: Saving worlds
+[14:53:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:53:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:53:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:53:49] [Client thread/INFO]: Stopping!
+[14:53:49] [Client thread/INFO]: SoundSystem shutting down...
+[14:53:49] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

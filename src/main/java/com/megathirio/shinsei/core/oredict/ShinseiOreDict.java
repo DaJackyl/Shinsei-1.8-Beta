@@ -40,6 +40,7 @@ public class ShinseiOreDict extends OreDictionary{
         OreDictionary.registerOre("nuggetSilver", ShinseiItems.silver_nugget);
 
         //Dusts
+        OreDictionary.registerOre("dustArsenic", ShinseiItems.arsenic_dust);
         OreDictionary.registerOre("dustSalt", ShinseiItems.salt);
         OreDictionary.registerOre("itemSalt", ShinseiItems.salt);
 

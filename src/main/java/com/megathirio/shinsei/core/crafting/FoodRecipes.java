@@ -22,6 +22,18 @@ public class FoodRecipes {
         //Food Recipes
         foodRecipes.put(new Item[]{ShinseiItems.cured_beef, Items.beef}, "dustSalt");
         foodRecipes.put(new Item[]{ShinseiItems.cured_pork, Items.porkchop}, "dustSalt");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_apple, Items.apple}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_beef, Items.cooked_beef}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_bread, Items.bread}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_carrot, Items.carrot}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_chicken, Items.cooked_chicken}, "dustArsenic");
+//        foodRecipes.put(new Item[]{ShinseiItems.poisoned_cod, Items.cooked_fish}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_cookie, Items.cookie}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_melon, Items.melon}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_milk, Items.milk_bucket}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_pie, Items.pumpkin_pie}, "dustArsenic");
+        foodRecipes.put(new Item[]{ShinseiItems.poisoned_pork, Items.cooked_porkchop}, "dustArsenic");
+//        foodRecipes.put(new Item[]{ShinseiItems.poisoned_salmon, Items.cooked_fish}, "dustArsenic");
 
         //Food Recipe Pattern
         for (Map.Entry<Item[], String> entry : foodRecipes.entrySet()) {
