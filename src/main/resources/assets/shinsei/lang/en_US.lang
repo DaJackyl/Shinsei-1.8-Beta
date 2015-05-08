@@ -1,66 +1,18 @@
 # Creative Tabs
 itemGroup.shinsei:ores_tab=Shinsei Ores
+itemGroup.shinsei:machines_tab=Shinsei Machines
 itemGroup.shinsei:blocks_tab=Shinsei Blocks
-itemGroup.shinsei:fuels_tab=Shinsei Fuels
-itemGroup.shinsei:dusts_tab=Shinsei Dusts
 itemGroup.shinsei:gems_tab=Shinsei Gems
-itemGroup.shinsei:nuggets_tab=Shinsei Nuggets
 itemGroup.shinsei:ingots_tab=Shinsei Ingots
-itemGroup.shinsei:items_tab=Shinsei Items
-itemGroup.shinsei:books_tab=Shinsei Books
+itemGroup.shinsei:nuggets_tab=Shinsei Nuggets
+itemGroup.shinsei:dusts_tab=Shinsei Dusts
+itemGroup.shinsei:fuels_tab=Shinsei Fuels
 itemGroup.shinsei:tools_tab=Shinsei Tools
+itemGroup.shinsei:books_tab=Shinsei Books
+itemGroup.shinsei:items_tab=Shinsei Items
 
-# Blocks
-tile.amethyst_block.name=Amethyst Block
-tile.apatite_block.name=Apatite Block
-tile.aluminum_block.name=Aluminum Block
-tile.antimony_block.name=Antimony Block
-tile.aquamarine_block.name=Aquamarine Block
-tile.barium_block.name=Barium Block
-tile.bismuth_block.name=Bismuth Block
-tile.brass_block.name=Brass Block
-tile.bronze_block.name=Bronze Block
-tile.cadmium_block.name=Cadmium Block
-tile.chromium_block.name=Chromium Block
-tile.cobalt_block.name=Cobalt Block
-tile.copper_block.name=Copper Block
-tile.fluorite_block.name=Fluorite Block
-tile.indium_block.name=Indium Block
-tile.iridium_block.name=Iridium Block
-tile.jade_block.name=Jade Block
-tile.lead_block.name=Lead Block
-tile.magnesium_block.name=Magnesium Block
-tile.manganese_block.name=Manganese Block
-tile.molybdenum_block.name=Molybdenum Block
-tile.nickel_block.name=Nickel Block
-tile.onyx_block.name=Onyx Block
-tile.opal_block.name=Opal Block
-tile.peridot_block.name=Peridot Block
-tile.platinum_block.name=Platinum Block
-tile.ruby_block.name=Ruby Block
-tile.sapphire_block.name=Sapphire Block
-tile.scarlet_emerald_block.name=Scarlet Emerald Block
-tile.silver_block.name=Silver Block
-tile.stainless_steel_block.name=Stainless Steel Block
-tile.steel_block.name=Steel Block
-tile.tantalum_block.name=Tantalum Block
-tile.tin_block.name=Tin Block
-tile.titanium_block.name=Titanium Block
-tile.topaz_block.name=Topaz Block
-tile.tungsten_block.name=Tungsten Block
-tile.turquoise_block.name=Turquoise Block
-tile.vanadium_block.name=Vanadium Block
-tile.zinc_block.name=Zinc Block
-
-#Minerals
-tile.basalt_block.name=Basalt Block
-tile.basalt_cobble_block.name=Basalt Cobble Block
-tile.borax_block.name=Borax Block
-tile.chalk_block.name=Chalk Block
-tile.gypsum_block.name=Gypsum Block
-tile.halite_block.name=Halite Block
-tile.limestone_block.name=Limestone Block
-tile.siltstone_block.name=Siltstone Block
+#Containers
+container.anbiru.name=Anbiru
 
 #Ores
 tile.acanthite_ore.name=Acanthite Ore
@@ -105,20 +57,59 @@ tile.topaz_ore.name=Topaz Ore
 tile.turquoise_ore.name=Turquoise Ore
 tile.uraninite_ore.name=Uraninite Ore
 
-#Fuels
-item.coke.name=Coke
-item.split_wood.name=Split Wood
+tile.basalt_block.name=Basalt Block
+tile.basalt_cobble_block.name=Basalt Cobble Block
+tile.borax_block.name=Borax Block
+tile.chalk_block.name=Chalk Block
+tile.gypsum_block.name=Gypsum Block
+tile.halite_block.name=Halite Block
+tile.limestone_block.name=Limestone Block
+tile.siltstone_block.name=Siltstone Block
 
-#Dusts
-item.arsenic_dust.name=Arsenic Powder
-item.borax_dust.name=Borax Powder
-item.chalk_dust.name=Chalk Powder
-item.graphite_dust.name=Graphite Powder
-item.gypsum_dust.name=Gypsum Powder
-item.salt.name=Salt
-item.silt.name=Silt
-item.sulphur_dust.name=Sulphur Powder
-item.uranium_dust.name=Uranium Powder
+#Machines
+tile.anbiru.name=Anbiru
+
+# Blocks
+tile.amethyst_block.name=Amethyst Block
+tile.apatite_block.name=Apatite Block
+tile.aluminum_block.name=Aluminum Block
+tile.antimony_block.name=Antimony Block
+tile.aquamarine_block.name=Aquamarine Block
+tile.barium_block.name=Barium Block
+tile.bismuth_block.name=Bismuth Block
+tile.brass_block.name=Brass Block
+tile.bronze_block.name=Bronze Block
+tile.cadmium_block.name=Cadmium Block
+tile.chromium_block.name=Chromium Block
+tile.cobalt_block.name=Cobalt Block
+tile.copper_block.name=Copper Block
+tile.fluorite_block.name=Fluorite Block
+tile.indium_block.name=Indium Block
+tile.iridium_block.name=Iridium Block
+tile.jade_block.name=Jade Block
+tile.lead_block.name=Lead Block
+tile.magnesium_block.name=Magnesium Block
+tile.manganese_block.name=Manganese Block
+tile.molybdenum_block.name=Molybdenum Block
+tile.nickel_block.name=Nickel Block
+tile.onyx_block.name=Onyx Block
+tile.opal_block.name=Opal Block
+tile.peridot_block.name=Peridot Block
+tile.platinum_block.name=Platinum Block
+tile.ruby_block.name=Ruby Block
+tile.sapphire_block.name=Sapphire Block
+tile.scarlet_emerald_block.name=Scarlet Emerald Block
+tile.silver_block.name=Silver Block
+tile.stainless_steel_block.name=Stainless Steel Block
+tile.steel_block.name=Steel Block
+tile.tantalum_block.name=Tantalum Block
+tile.tin_block.name=Tin Block
+tile.titanium_block.name=Titanium Block
+tile.topaz_block.name=Topaz Block
+tile.tungsten_block.name=Tungsten Block
+tile.turquoise_block.name=Turquoise Block
+tile.vanadium_block.name=Vanadium Block
+tile.zinc_block.name=Zinc Block
 
 #Gems
 item.amethyst_gem.name=Amethyst
@@ -135,39 +126,82 @@ item.scarlet_emerald_gem.name=Scarlet Emerald
 item.topaz_gem.name=Topaz
 item.turquoise_gem.name=Turquoise
 
-#Nuggets
-item.barium_nugget.name=Barium Nugget
-item.chromium_nugget.name=Chromium Nugget
-item.cobalt_nugget.name=Cobalt Nugget
-item.indium_nugget.name=Indium Nugget
-item.iridium_nugget.name=Iridium Nugget
-item.iron_nugget.name=Iron Nugget
-item.nickel_nugget.name=Nickel Nugget
-item.platinum_nugget.name=Platinum Nugget
-item.silver_nugget.name=Silver Nugget
-
 #Ingots
+item.aluminum_ingot.name=Aluminum Ingot
+item.antimony_ingot.name=Antimony Ingot
 item.barium_ingot.name=Barium Ingot
+item.bismuth_ingot.name=Bismuth Ingot
+item.brass_ingot.name=Brass Ingot
+item.bronze_ingot.name=Bronze Ingot
 item.chromium_ingot.name=Chromium Ingot
 item.cobalt_ingot.name=Cobalt Ingot
+item.copper_ingot.name=Copper Ingot
 item.indium_ingot.name=Indium Ingot
 item.iridium_ingot.name=Iridium Ingot
+item.lead_ingot.name=Lead Ingot
+item.magnesium_ingot.name=Magnesium Ingot
+item.manganese_ingot.name=Manganese Ingot
+item.molybdenum_ingot.name=Molybdenum Ingot
 item.nickel_ingot.name=Nickel Ingot
 item.platinum_ingot.name=Platinum Ingot
 item.silver_ingot.name=Silver Ingot
+item.stainless_steel_ingot.name=Stainless Steel Ingot
+item.steel_ingot.name=Steel Ingot
+item.tantalum_ingot.name=Tantalum Ingot
+item.tin_ingot.name=Tin Ingot
+item.titanium_ingot.name=Titanium Ingot
+item.tungsten_ingot.name=Tungsten Ingot
+item.vanadium_ingot.name=Vanadium Ingot
+item.zinc_ingot.name=Zinc Ingot
 
-#Books
-item.book_axe.name=Book of Axes
-item.book_chisel.name=Book of Chisels
-item.book_hoe.name=Book of Hoes
-item.book_pickaxe.name=Book of Pickaxes
-item.book_shovel.name=Book of Shovels
-item.book_sword.name=Book of Swords
+#Nuggets
+item.aluminum_nugget.name=Aluminum Nugget
+item.antimony_nugget.name=Antimony Nugget
+item.barium_nugget.name=Barium Nugget
+item.bismuth_nugget.name=Bismuth Nugget
+item.brass_nugget.name=Brass Nugget
+item.bronze_nugget.name=Bronze Nugget
+item.chromium_nugget.name=Chromium Nugget
+item.cobalt_nugget.name=Cobalt Nugget
+item.copper_nugget.name=Copper Nugget
+item.indium_nugget.name=Indium Nugget
+item.iridium_nugget.name=Iridium Nugget
+item.lead_nugget.name=Lead Nugget
+item.magnesium_nugget.name=Magnesium Nugget
+item.manganese_nugget.name=Manganese Nugget
+item.molybdenum_nugget.name=Molybdenum Nugget
+item.nickel_nugget.name=Nickel Nugget
+item.platinum_nugget.name=Platinum Nugget
+item.silver_nugget.name=Silver Nugget
+item.stainless_steel_nugget.name=Stainless Steel Nugget
+item.steel_nugget.name=Steel Nugget
+item.tantalum_nugget.name=Tantalum Nugget
+item.tin_nugget.name=Tin Nugget
+item.titanium_nugget.name=Titanium Nugget
+item.tungsten_nugget.name=Tungsten Nugget
+item.vanadium_nugget.name=Vanadium Nugget
+item.zinc_nugget.name=Zinc Nugget
+
+#Dusts
+item.arsenic_dust.name=Arsenic Powder
+item.borax_dust.name=Borax Powder
+item.chalk_dust.name=Chalk Powder
+item.dolomite_dust.name=Dolomite Powder
+item.graphite_dust.name=Graphite Powder
+item.gypsum_dust.name=Gypsum Powder
+item.quicklime.name=Quicklime
+item.salt.name=Salt
+item.silt.name=Silt
+item.sulphur_dust.name=Sulphur Powder
+item.uranium_dust.name=Uranium Powder
+
+#Fuels
+item.coke.name=Coke
+item.split_wood.name=Split Wood
 
 #Tools
 item.iron_chisel.name=Iron Chisel
 item.iron_hammer.name=Iron Hammer
-
 item.stone_chisel.name=Stone Chisel
 
 #Tool Parts
@@ -199,6 +233,14 @@ item.wood_pickaxe_blade.name=Wooden Pickaxe Blade
 item.wood_shovel_blade.name=Wooden Shovel Blade
 item.wood_sword_blade.name=Wooden Sword Blade
 
+#Books
+item.book_axe.name=Book of Axes
+item.book_chisel.name=Book of Chisels
+item.book_hoe.name=Book of Hoes
+item.book_pickaxe.name=Book of Pickaxes
+item.book_shovel.name=Book of Shovels
+item.book_sword.name=Book of Swords
+
 #Foods
 item.cured_beef.name=Cured Beef
 item.cured_pork.name=Cured Pork
@@ -214,6 +256,3 @@ item.poisoned_milk.name=Milk
 item.poisoned_pie.name=Pumpkin Pie
 item.poisoned_pork.name=Cooked Porkchop
 item.poisoned_salmon.name=Cooked Salmon
-
-#Containers
-container.anbiru.name=Anbiru

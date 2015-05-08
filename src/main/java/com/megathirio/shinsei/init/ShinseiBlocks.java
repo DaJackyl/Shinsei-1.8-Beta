@@ -23,6 +23,8 @@ public class ShinseiBlocks {
     public static BlockShinsei cobalt_block = new BlockCobalt();
     public static BlockShinsei copper_block = new BlockCopper();
     public static BlockShinsei fluorite_block = new BlockFluorite();
+    public static BlockShinsei indium_block = new BlockIndium();
+    public static BlockShinsei iridium_block = new BlockIridium();
     public static BlockShinsei jade_block = new BlockJade();
     public static BlockShinsei lead_block = new BlockLead();
     public static BlockShinsei magnesium_block = new BlockMagnesium();
@@ -118,6 +120,8 @@ public class ShinseiBlocks {
         BlockCobalt.registerRender(cobalt_block);
         BlockCopper.registerRender(copper_block);
         BlockFluorite.registerRender(fluorite_block);
+        BlockIndium.registerRender(indium_block);
+        BlockIridium.registerRender(iridium_block);
         BlockJade.registerRender(jade_block);
         BlockLead.registerRender(lead_block);
         BlockMagnesium.registerRender(magnesium_block);

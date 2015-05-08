@@ -60,7 +60,7 @@ key_key.left:18
 key_key.back:16
 key_key.right:19
 key_key.jump:57
-key_key.sneak:42
+key_key.sneak:56
 key_key.drop:47
 key_key.inventory:20
 key_key.chat:46
@@ -86,8 +86,8 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-soundCategory_master:0.25165564
-soundCategory_music:0.2535211
+soundCategory_master:0.18543047
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

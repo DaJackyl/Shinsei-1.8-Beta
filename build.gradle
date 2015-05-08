@@ -22,7 +22,7 @@ group= "Shinsei" // http://maven.apache.org/guides/mini/guide-naming-conventions
 archivesBaseName = "Shinsei"
 
 minecraft {
-    version = "1.8-11.14.1.1336"
+    version = "1.8-11.14.1.1402"
     runDir = "eclipse"
     
     // the mappings can be changed at any time, and must be in the following format.
@@ -45,7 +45,7 @@ dependencies {
 
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    // http://www.gradle.org/docs/current/userguid`e/dependency_management.html
 
 }
 

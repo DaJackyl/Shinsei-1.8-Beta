@@ -6,7 +6,7 @@ public class ShinseiCraftingManager {
         ToolRecipes.addTools();
         BookRecipes.addToolBooks();
         FormRecipes.addIngots();
-        FormRecipes.addBlocks();
+        SmeltingRecipes.addOres();
         FoodRecipes.addFoods();
     }
 }

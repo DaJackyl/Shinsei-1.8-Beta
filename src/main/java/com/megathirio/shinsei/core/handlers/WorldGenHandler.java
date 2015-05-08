@@ -59,6 +59,7 @@ public class WorldGenHandler implements IWorldGenerator{
         addOreSpawn(ShinseiBlocks.hematite_ore, world, random, chunkX, chunkZ, 16, 16, 3 + random.nextInt(6), 30, 0, 256);
         addOreSpawn(ShinseiBlocks.ilmenite_ore, world, random, chunkX, chunkZ, 16, 16, 2 + random.nextInt(4), 20, 0, 64);
         addOreSpawn(ShinseiBlocks.jadeite_ore, world, random, chunkX, chunkZ, 16, 16, 1 + random.nextInt(3), 10, 0, 64);
+        addOreSpawn(ShinseiBlocks.meteorite_ore, world, random, chunkX, chunkZ, 16, 16, 1, 25, 64, 256);
         addOreSpawn(ShinseiBlocks.molybdenite_ore, world, random, chunkX, chunkZ, 16, 16, 2 + random.nextInt(5), 40, 0, 256);
         addOreSpawn(ShinseiBlocks.olivine_ore, world, random, chunkX, chunkZ, 16, 16, 1 + random.nextInt(3), 20, 0, 64);
         addOreSpawn(ShinseiBlocks.opal_ore, world, random, chunkX, chunkZ, 16, 16, 2 + random.nextInt(4), 15, 0, 128);
@@ -77,8 +78,7 @@ public class WorldGenHandler implements IWorldGenerator{
         addOreSpawn(ShinseiBlocks.turquoise_ore, world, random, chunkX, chunkZ, 16, 16, 1 + random.nextInt(3), 20, 0, 128);
         addOreSpawn(ShinseiBlocks.uraninite_ore, world, random, chunkX, chunkZ, 16, 16, 1 + random.nextInt(5), 10, 0, 45);
 
-        //addOreSpawn(ShinseiBlocks.woodCrateCache, world, random, chunkX, chunkZ, 16, 16, 1 + random.nextInt (2), 25, 0, 256);
-        //addMeteorSpawn(ShinseiBlocks.meteorite_ore, world, random, chunkX, chunkZ, 16, 16, 1 + random.nextInt(6), 15, 0, 256);
+//        addOreSpawn(ShinseiBlocks.woodCrateCache, world, random, chunkX, chunkZ, 16, 16, 1, 10, 64, 256);
     }
 
     public void generateEnd(World world, Random random, int chunkX, int chunkZ){
@@ -101,7 +101,8 @@ public class WorldGenHandler implements IWorldGenerator{
         }
     }
 
-/*    public void addMeteorSpawn(Block block, World world, Random random, int chunkX, int chunkZ, int maxX, int maxZ, int maxVeinSize, int chanceToSpawn, int minYCoord, int maxYCoord) {
+/*
+    public void addMeteorSpawn(Block block, World world, Random random, int chunkX, int chunkZ, int maxX, int maxZ, int maxVeinSize, int chanceToSpawn, int minYCoord, int maxYCoord) {
 
         for(int i = 0; i < chanceToSpawn; i++){
 
@@ -112,5 +113,6 @@ public class WorldGenHandler implements IWorldGenerator{
 
              (new ShinseiMeteorWorldGen(block, maxVeinSize)).generate(world, random, posX, posY, posZ);
             }
-      }*/
+     }
+*/
 }
