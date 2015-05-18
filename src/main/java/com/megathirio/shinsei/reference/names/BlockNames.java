@@ -55,6 +55,7 @@ public final class BlockNames {
         public static final String GYPSUM_BLOCK = "gypsum_block";
         public static final String HALITE_BLOCK = "halite_block";
         public static final String LIMESTONE_BLOCK = "limestone_block";
+        public static final String MARBLE_BLOCK = "marble_block";
         public static final String SILTSTONE_BLOCK = "siltstone_block";
     }
     public static final class ores {

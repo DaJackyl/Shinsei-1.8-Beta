@@ -103,6 +103,10 @@ public class ShinseiBlocks {
     //Machines
     public static MachineShinsei anbiru = new MachineAnbiru();
 
+    public static void createBlocks(){
+
+    }
+
     //Registers renders for Blocks
     public static void registerRenders() {
         //Blocks
